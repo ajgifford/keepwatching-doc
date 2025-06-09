@@ -1,3 +1,4 @@
+[Home](../README.md)
 # Shows
 When navigating to the Shows page, a default filter of 'Not Watched, Watching' is applied to the profile's list of shows that they have favorited.
 ![Shows for a profile](../images/shows//shows.png)
