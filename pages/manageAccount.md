@@ -1,4 +1,5 @@
-[Home](../README.md)
+[< Back](../README.md)
+
 # Manage Account
 The Manage Account page is where users will go to manage their account, including creating/editing profiles, uploading account and profile pictures and viewing statistics about their account and profiles.<br>
 

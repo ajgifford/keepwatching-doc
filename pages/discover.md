@@ -1,3 +1,5 @@
+[< Back](../README.md)
+
 # Discover Page User Guide
 
 The Discover page is your gateway to finding new and trending content across all major streaming platforms. Whether you're looking for the hottest shows everyone's talking about or want to explore what's new on your favorite streaming service, the Discover page has you covered.

@@ -1,4 +1,5 @@
-[Home](../README.md)
+[< Back](../README.md)
+
 # Authentication
 
 All the routes are protected except the login and register pages. Once a user is successfully logged in, the application becomes available.<br>

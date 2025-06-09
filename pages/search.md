@@ -1,3 +1,5 @@
+[< Back](../README.md)
+
 # Search Page User Guide
 
 The Search page is your powerful tool for finding specific shows and movies by name. Whether you know exactly what you're looking for or want to explore content from a particular year or genre, the advanced search capabilities help you find precisely what you want to watch.

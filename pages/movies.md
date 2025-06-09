@@ -1,4 +1,5 @@
-[Home](../README.md)
+[< Back](../README.md)
+
 # Movies
 When first navigating to the Movies page, no profile is selected.
 ![Movies No Profile](../images/movies//movies_noprofile.png)
