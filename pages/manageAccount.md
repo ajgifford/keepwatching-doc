@@ -1,3 +1,5 @@
+[< Back](../README.md)
+
 # Manage Account - User Guide
 
 The Manage Account page is your central hub for managing your KeepWatching account settings and profiles. This comprehensive guide will walk you through all the features available on this page.
