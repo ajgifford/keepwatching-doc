@@ -10,7 +10,7 @@ The Manage Account page allows you to:
 - View detailed statistics for your account and individual profiles
 - Set default profiles and switch between active profiles
 
-![Manage Account Screenshot](../images/manageAccount/manage_account.png)
+![Manage Account Screenshot](../images/manageAccount/manage_account_all.png)
 
 ## Account Information Section
 
@@ -67,7 +67,7 @@ Click the statistics icon next to your account name to view comprehensive accoun
 ### Profiles Section
 The profiles section displays all profiles associated with your account as individual cards.
 
-![Manage Account Screenshot](../images/manageAccount/manage_account_all.png)
+![Manage Account Screenshot](../images/manageAccount/manage_account_profiles.png)
 
 ### Adding a New Profile
 1. Click the "Add" chip button in the Profiles section header
