@@ -27,7 +27,7 @@ When you first visit the Discover page, you'll see two tabs at the top:
 The Trending Content tab helps you discover what's currently popular across all streaming platforms.
 
 1. **Select Content Type**
-   - Choose between "TV Shows" or "Movies" from the dropdown
+   - Choose between "TV Shows" or "Movies" from the selector
    - This determines what type of content you'll see in your results
 
 *[Screenshot: Content type selector showing TV Shows and Movies options]*
@@ -65,13 +65,13 @@ The "By Service" tab lets you explore content from these major platforms:
 
 ### How to Browse by Service
 
-1. **Select a Streaming Service**
-   - Choose your preferred service from the "Streaming Service" dropdown
-   - This will filter results to only show content available on that platform
-
-2. **Choose Content Type**
+1. **Choose Content Type**
    - Select either "Movies" or "TV Shows" 
    - You can browse both types of content on any service
+
+2. **Select a Streaming Service**
+   - Choose your preferred service from the "Streaming Service" selector
+   - This will filter results to only show content available on that platform
 
 3. **Apply Content Filters**
    - **Top Rated** - Shows the highest-rated content on the service

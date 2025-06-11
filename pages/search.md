@@ -27,7 +27,7 @@ The Search page provides comprehensive search functionality with:
 *[Screenshot: Search bar with example search term entered]*
 
 2. **Select Content Type**
-   - Choose between "TV Shows" and "Movies" using the radio buttons
+   - Choose between "TV Shows" and "Movies" using the selector
    - This determines what type of content appears in your search results
    - You can change this selection and search again for different results
 
