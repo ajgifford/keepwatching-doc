@@ -8,7 +8,7 @@ The Home/Profile Dashboard is your central hub for managing and tracking your en
 
 The Home/Profile Dashboard provides a personalized view of your watching activity, organized into intuitive tabs that help you quickly find what you're looking for. From here, you can continue watching shows, discover new content, and track your viewing statistics.
 
-*[Screenshot: Full home dashboard overview showing profile image, stats cards, and tab navigation]*
+![Home Page Screenshot](../images/home/home.png)
 
 ## Profile Header
 
@@ -18,8 +18,6 @@ At the top of your dashboard, you'll see your profile information including:
 - **Profile Name**: The name of the currently active profile
 - **Quick Stats Cards**: At-a-glance viewing statistics
 
-*[Screenshot: Profile header section with profile image and name]*
-
 ### Quick Statistics Cards
 Four summary cards provide instant insights into your viewing habits:
 
@@ -28,14 +26,14 @@ Four summary cards provide instant insights into your viewing habits:
 - **Movies to Watch**: Movies in your watchlist that haven't been watched
 - **Movies Watched**: Movies you've marked as completed
 
-*[Screenshot: Four statistics cards showing viewing counts]*
+![Home Page Profile Card Screenshot](../images/home/home_profile_card.png)
 
 ## Navigation Tabs
 
 The dashboard is organized into four main tabs, each serving a specific purpose:
 
 ### 1. Keep Watching Tab
-*[Screenshot: Keep Watching tab showing episode cards]*
+![Home Page Keep Watching Tab Screenshot](../images/home/home_keepwatching.png)
 
 This tab is your starting point for continuing your viewing journey. It displays:
 
@@ -61,7 +59,7 @@ This tab is your starting point for continuing your viewing journey. It displays
 - Balances content across different shows to avoid overwhelming you with episodes from a single series
 
 ### 2. TV Shows Tab
-*[Screenshot: TV Shows tab with statistics cards and episode sections]*
+![Home Page TV Shows Tab Screenshot](../images/home/home_tv_shows.png)
 
 This tab focuses entirely on your television content and provides:
 
@@ -85,30 +83,31 @@ This tab focuses entirely on your television content and provides:
 - Section headers provide quick navigation to your shows page
 
 ### 3. Movies Tab
-*[Screenshot: Movies tab with movie statistics and release sections]*
+![Home Page Movies Tab Screenshot](../images/home/home_movies.png)
 
 Your movie management center includes:
 
 #### Content Sections:
 
 ##### Recent Releases
-*[Screenshot: Recent movie releases section]*
 - Movies from your watchlist that have recently been released
 - Helps you stay current with new movies you want to watch
 - Shows release dates and streaming availability
 
 ##### Upcoming Releases
-*[Screenshot: Upcoming movie releases section]*
 - Movies in your watchlist that haven't been released yet
 - Plan your future movie watching
 - Track anticipated releases
 
 #### Movie Management:
 - Each movie tile shows poster, title, release date, and streaming services
+
+#### Navigation Features:
+- Movie tiles link directly to movie detail pages
 - Section headers provide quick navigation to your movies page
 
 ### 4. Statistics Tab
-*[Screenshot: Statistics dashboard with charts and progress indicators]*
+![Home Page Stats Tab Screenshot](../images/home/home_stats.png)
 
 A comprehensive analytics view of your viewing habits:
 
@@ -120,25 +119,25 @@ A comprehensive analytics view of your viewing habits:
 #### Detailed Analytics:
 
 ##### Watch Status Charts
-*[Screenshot: Watch status bar chart]*
+![Home Page Watch Status Chart Screenshot](../images/home/home_stats_watch_status.png)
 - Visual representation of your content by status (Watched, Watching, Not Watched, Up to Date)
 - Separate tracking for shows and movies
 - Helps identify your viewing patterns
 
 ##### Genre Distribution
-*[Screenshot: Genre pie chart]*
+![Home Page Genres Chart Screenshot](../images/home/home_stats_genres.png)
 - Pie chart showing your top genres by content count
 - Discover your favorite types of entertainment
 - Based on all shows and movies in your profile
 
 ##### Streaming Services
-*[Screenshot: Streaming services bar chart]*
+![Home Page Streaming Services Chart Screenshot](../images/home/home_stats_services.png)
 - Bar chart of content by streaming platform
 - See which services provide most of your content
 - Useful for subscription management decisions
 
-##### Currently Watching Progress
-*[Screenshot: Show progress list]*
+##### Active Shows Progress
+![Home Page Show Progress Screenshot](../images/home/home_stats_show_progress.png)
 - Detailed progress bars for shows you're actively watching
 - See completion percentage for each show
 - Track how close you are to finishing series
@@ -182,8 +181,8 @@ A comprehensive analytics view of your viewing habits:
 - **Use Statistics**: Monitor your completion rates to avoid overwhelming your watchlist
 
 ### Navigation Shortcuts:
-- **Direct Links**: Click statistics cards for quick filtered views
 - **Episode Links**: Click episode titles to jump directly to show details
+- **Movie Links**: Click movie titles to jump directly to movie details
 - **Section Headers**: Use section headers as navigation shortcuts
 
 ### Profile Optimization:
