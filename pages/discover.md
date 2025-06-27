@@ -10,15 +10,13 @@ The Discover page offers two main discovery modes:
 - **Trending Content** - Find what's popular right now across all platforms
 - **By Service** - Browse content from specific streaming services with advanced filtering
 
-*[Screenshot: Discover page overview showing both tabs]*
+![Discover Tabs Screenshot](../images/discover/discover_tabs.png)
 
 ## Getting Started
 
 When you first visit the Discover page, you'll see two tabs at the top:
 1. **Trending Content** - For finding popular shows and movies
 2. **By Service** - For browsing specific streaming platforms
-
-*[Screenshot: Tab selection interface]*
 
 ## Trending Content Discovery
 
@@ -30,13 +28,13 @@ The Trending Content tab helps you discover what's currently popular across all 
    - Choose between "TV Shows" or "Movies" from the selector
    - This determines what type of content you'll see in your results
 
-*[Screenshot: Content type selector showing TV Shows and Movies options]*
+![Discover Trending Content Tab Screenshot](../images/discover/discover_trending_content.png)
 
 2. **Find Trending Content**
    - Click the "Find Trending Content" button to see what's popular
    - Results will show the most trending content based on your selected type
 
-*[Screenshot: Trending content results grid]*
+![Discover Trending Content Results Screenshot](../images/discover/discover_trending_content_results.png)
 
 ### Understanding Trending Results
 
@@ -48,7 +46,7 @@ Each result shows:
 - **Rating** to gauge quality
 - **Favorite button** to add content to your personal collection
 
-*[Screenshot: Individual content card with labeled features]*
+![Discover Result Line Screenshot](../images/discover/discover_result_line.png)
 
 ## Service-Specific Discovery
 
@@ -60,8 +58,6 @@ The "By Service" tab lets you explore content from these major platforms:
 - HBO Max
 - Apple TV+
 - Prime Video
-
-*[Screenshot: Streaming service dropdown menu]*
 
 ### How to Browse by Service
 
@@ -79,13 +75,13 @@ The "By Service" tab lets you explore content from these major platforms:
    - **Upcoming** - Shows content coming soon to the platform
    - **Expiring Soon** - Highlights content leaving the service soon
 
-*[Screenshot: Service discovery interface with all filter options visible]*
+![Discover Services Tab Screenshot](../images/discover/discover_top_content.png)
 
 4. **Search for Content**
    - Click the "Find [Filter Type] Content" button
    - The button text changes based on your selected filter (e.g., "Find Top Content", "Find New Content")
 
-*[Screenshot: Search button with different filter states]*
+![Discover Services Tab Screenshot](../images/discover/discover_new_content.png)
 
 ## Working with Search Results
 
@@ -98,8 +94,6 @@ Search results are displayed in a scrollable list format with detailed informati
 - **Key details** like genres, premiere date, and ratings
 - **Favorite button** on the right to add to your collection
 
-*[Screenshot: Search results list layout]*
-
 ### Adding Content to Your Collection
 
 To save interesting content for later:
@@ -107,8 +101,6 @@ To save interesting content for later:
 1. **Click the Favorite Button** (star icon) on any content card
 2. The content will be added to your personal collection
 3. You can then track your viewing progress from the Shows or Movies pages
-
-*[Screenshot: Favorite button interaction and confirmation]*
 
 ### Loading More Results
 
@@ -118,7 +110,8 @@ The Discover page automatically loads more content as you scroll down:
 - A **loading indicator** appears while new content is being fetched
 - The page shows how many results you're viewing out of the total available
 
-*[Screenshot: Infinite scroll loading and result counter]*
+![Discover Infinite Scrolling Before Screenshot](../images/discover/discover_scrolling_before.png)
+![Discover Infinite Scrolling After Screenshot](../images/discover/discover_scrolling_after.png)
 
 ## Tips for Better Discovery
 
@@ -140,8 +133,6 @@ The Discover page automatically loads more content as you scroll down:
 - **Visit Regularly** - Trending content changes frequently, so check back often
 - **Use Multiple Filters** - Different filter types reveal different aspects of a service's catalog
 - **Follow Upcoming Content** - Use the "Upcoming" filter to plan your future viewing
-
-*[Screenshot: Tips in action - user browsing different filter combinations]*
 
 ## Troubleshooting Common Issues
 
@@ -165,7 +156,5 @@ After discovering content you like:
 2. **Set Watch Status** - Mark items as "Watching", "Watched", or "Not Watched"
 3. **Track Progress** - For TV shows, mark individual episodes as you watch them
 4. **Get Recommendations** - The system will suggest similar content based on your favorites
-
-*[Screenshot: Navigation to Shows/Movies pages from discovered content]*
 
 The Discover page is designed to make finding your next favorite show or movie effortless. Whether you're looking for something trending or want to dive deep into a specific streaming service's catalog, you'll always have something new and exciting to watch.

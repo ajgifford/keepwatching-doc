@@ -1,6 +1,8 @@
 # KeepWatching
 A modern React-based web application for tracking your favorite TV shows and movies. Never lose track of what you're watching or what episode you're on again!
 
+![Landing Page Screenshot](./images/landing_page.png)
+
 ## Features
 
 ### 🎬 Content Management

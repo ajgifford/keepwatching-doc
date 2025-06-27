@@ -21,11 +21,18 @@ Your account profile picture is displayed prominently at the top of the page.
 
 **To update your account picture:**
 1. Hover over your current account image
-2. Click when you see the "Upload Image" overlay
-3. Select a new image file from your device
-4. The image will be automatically uploaded and updated
+2. Click when you see the "Manage Image" overlay
+3. Select the 'Upload image' option (if you already have an image this option will be 'Change image')
+4. Select a new image file from your device
+5. The image will be automatically uploaded and updated
 
 ![Manage Account Screenshot Upload Account Image](../images/manageAccount/manage_account_upload.png)
+
+**To remove your account picture:**
+1. Hover over your current account image
+2. Click when you see the "Manage Image" overlay
+3. Select the 'Remove image' option
+5. The image will be automatically removed
 
 ### Account Details
 Your account information is displayed next to your profile picture:
@@ -36,14 +43,14 @@ Your account information is displayed next to your profile picture:
 - **Active Profile**: Shows which profile is currently active
 - **Last Updated**: Timestamp of when your profile data was last refreshed
 
-![Manage Account Screenshot Upload Account Image](../images/manageAccount/manage_account_account_details.png)
+![Manage Account Screenshot Account Details Image](../images/manageAccount/manage_account_account_details.png)
 
 ### Editing Your Account Name
 1. Click the edit icon (pencil) next to your account name
 2. Enter your new name in the dialog box
 3. Click "Save" to confirm your changes
 
-![Manage Account Screenshot Upload Account Image](../images/manageAccount/manage_account_account_name.png)
+![Manage Account Screenshot Edit Account Image](../images/manageAccount/manage_account_account_name.png)
 
 ### Email Verification
 If your email isn't verified, you'll see a "Verify Email" button next to your email address:
@@ -62,14 +69,14 @@ Click the statistics icon next to your account name to view comprehensive accoun
 - Genre and streaming service distributions
 - Content breakdown charts
 
-*[Screenshot placeholder: Account statistics dialog showing charts and metrics]*
+![Manage Account Screenshot Account Stats Image](../images/manageAccount/manage_account_accounts_stats.png)
 
 ## Profile Management
 
 ### Profiles Section
 The profiles section displays all profiles associated with your account as individual cards.
 
-![Manage Account Screenshot](../images/manageAccount/manage_account_profiles.png)
+![Manage Account Screenshot All Profiles](../images/manageAccount/manage_account_profiles.png)
 
 ### Adding a New Profile
 1. Click the "Add" chip button in the Profiles section header
@@ -77,8 +84,8 @@ The profiles section displays all profiles associated with your account as indiv
 3. Click "Save" to create the profile
 4. The new profile will appear as a card in the profiles section
 
-![Manage Account Screenshot Upload Account Image](../images/manageAccount/manage_account_add.png)
-![Manage Account Screenshot Upload Account Image](../images/manageAccount/manage_account_after_add.png)
+![Manage Account Screenshot Add Profile Before Image](../images/manageAccount/manage_account_add.png)
+![Manage Account Screenshot Add Profile After Image](../images/manageAccount/manage_account_after_add.png)
 
 ### Profile Cards
 Each profile card shows:
@@ -110,22 +117,24 @@ Click "View Stats" to see detailed analytics for that specific profile:
 - Genre preferences and streaming service usage
 - Episode watch progress charts
 
-*[Screenshot placeholder: Profile statistics dialog showing individual profile metrics]*
+![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
+![Manage Account Screenshot Profile Stats Joan](../images/manageAccount/manage_account_profile_stats_joan.png)
 
 #### Edit Profile
 1. Click "Edit" on a profile card
 2. Enter the new name in the dialog box
 3. Click "Save" to update the profile name
 
-![Manage Account Screenshot Set Active Profile](../images/manageAccount/manage_account_edit.png)
+![Manage Account Screenshot Edit Profile Name](../images/manageAccount/manage_account_edit.png)
 
 #### Upload Profile Picture
 1. Hover over the profile picture on any profile card
-2. Click when you see the "Upload Image" overlay
-3. Select an image file from your device
-4. The profile picture will be updated automatically
+2. Click when you see the "Manage Image" overlay
+3. Select the 'Upload image' option
+4. Select an image file from your device
+5. The profile picture will be updated automatically
 
-![Manage Account Screenshot Set Active Profile](../images/manageAccount/manage_account_upload_profile.png)
+![Manage Account Screenshot Upload Profile Picture](../images/manageAccount/manage_account_upload_profile.png)
 
 #### Delete Profile
 1. Click "Delete" on the profile card you want to remove
@@ -138,7 +147,7 @@ Click "View Stats" to see detailed analytics for that specific profile:
 - Deleting a profile removes ALL watch data associated with it
 - This action is permanent and cannot be undone
 
-![Manage Account Screenshot Set Active Profile](../images/manageAccount/manage_account_delete_profile.png)
+![Manage Account Screenshot Delete Profile](../images/manageAccount/manage_account_delete_profile.png)
 
 ## Profile Switching Workflow
 

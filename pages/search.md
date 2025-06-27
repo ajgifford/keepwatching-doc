@@ -13,7 +13,7 @@ The Search page provides comprehensive search functionality with:
 - **Advanced sorting options** to organize results by your preferences
 - **Infinite scroll results** that load more content as you browse
 
-*[Screenshot: Search page overview showing search bar and filter options]*
+![Search Screenshot](../images/search/search.png)
 
 ## Getting Started
 
@@ -24,20 +24,17 @@ The Search page provides comprehensive search functionality with:
    - The search is flexible - you don't need the exact title
    - Partial matches and similar titles will appear in results
 
-*[Screenshot: Search bar with example search term entered]*
-
 2. **Select Content Type**
    - Choose between "TV Shows" and "Movies" using the selector
    - This determines what type of content appears in your search results
    - You can change this selection and search again for different results
 
-*[Screenshot: Content type radio button selection]*
-
 3. **Perform Your Search**
    - Click the "Search" button or press Enter in the search box
    - Results will appear below showing matching content
 
-*[Screenshot: Search button and basic search results]*
+![Search TV Show Results Screenshot](../images/search/search_tv_show.png)
+![Search Movies Results Screenshot](../images/search/search_movie.png)
 
 ## Advanced Filtering Options
 
@@ -50,14 +47,12 @@ Narrow down your search by premiere year:
    - Options range from the current year back to 1978
    - Select "Any Year" to search across all time periods
 
-*[Screenshot: Year dropdown menu showing available options]*
-
 2. **Combine with Search Terms**
    - Year filtering works alongside your text search
    - For example: Search "Star" + Year "1977" to find "Star Wars"
    - This helps when multiple shows/movies have similar names
 
-*[Screenshot: Combined text and year search example]*
+![Search Movies Results Filtered by Year Screenshot](../images/search/search_movie_filtered.png)
 
 ### Sorting Your Results
 
@@ -70,14 +65,12 @@ Organize search results to find what you want faster:
    - **Rating** - Organized by user ratings (highest to lowest)
    - **Popularity** - Based on current trending metrics
 
-*[Screenshot: Sort by dropdown menu with all options visible]*
+![Search Sort Options Screenshot](../images/search/search_sort.png)
 
 2. **Change Sort Direction**
    - Click the sort direction button (up/down arrows) next to the sort dropdown
    - **Ascending** (up arrow) - A to Z, oldest to newest, lowest to highest
    - **Descending** (down arrow) - Z to A, newest to oldest, highest to lowest
-
-*[Screenshot: Sort direction toggle button in both states]*
 
 ## Understanding Search Results
 
@@ -93,7 +86,7 @@ Each search result displays comprehensive information:
 - **Rating** - User rating score
 - **Popularity Score** - Current trending metrics (when available)
 
-*[Screenshot: Individual search result card with labels pointing to each information element]*
+![Search Result Line Screenshot](../images/search/search_result_line.png)
 
 ### Result Status Indicators
 
@@ -101,8 +94,6 @@ Pay attention to premiere information:
 - **"Premiered: [Date]"** - Content that has already been released
 - **"Premieres: [Date]"** - Upcoming content with a known release date
 - **"Premieres: TBD"** - Announced content without a confirmed date
-
-*[Screenshot: Examples of different premiere status indicators]*
 
 ## Working with Search Results
 
@@ -115,14 +106,12 @@ Save interesting content for tracking and viewing:
    - Empty star = not in your collection
    - Filled star = already in your collection
 
-*[Screenshot: Favorite button in both empty and filled states]*
+![Search Favorite Button Screenshot](../images/search/search_favorite_button.png)
 
 2. **Add to Favorites**
    - Click the empty star to add content to your collection
    - The star will fill in to confirm the content has been saved
    - Added content appears in your Shows or Movies pages for tracking
-
-*[Screenshot: Before and after favoriting animation/state change]*
 
 3. **Manage Existing Favorites**
    - Content already in your collection shows a filled star
@@ -137,13 +126,12 @@ The search system automatically provides additional results:
    - Scroll down to automatically load additional search results
    - New results appear seamlessly as you reach the bottom of the page
 
-*[Screenshot: Infinite scroll loading indicator]*
-
 2. **Result Counter**
    - The page shows "Showing X of Y results" to track your progress
    - This helps you understand how many total matches were found
 
-*[Screenshot: Result counter display]*
+![Search Infinite Scroll Before Screenshot](../images/search/search_scroll_before.png)
+![Search Infinite Scroll After Screenshot](../images/search/search_scroll_after.png)
 
 ## Advanced Search Strategies
 
@@ -183,8 +171,6 @@ The search system automatically provides additional results:
    - Click the "X" button in the search box to clear your text
    - This removes your search term but keeps other filter settings
 
-*[Screenshot: Clear search button (X) in search box]*
-
 2. **Reset All Filters**
    - Change content type, year, or sorting to modify your search
    - Each change requires clicking "Search" again to apply
@@ -211,7 +197,7 @@ If your search returns no results:
 - **Remove year filtering** to search all time periods
 - **Switch content types** (TV Shows vs Movies)
 
-*[Screenshot: "No Results Found" message]*
+![Search No Results Screenshot](../images/search/search_no_results.png)
 
 ### Search Not Working
 
@@ -265,7 +251,5 @@ Once you've found and favorited content:
 3. **Discover More**
    - Use the Discover page to find content similar to what you've searched for
    - Explore trending content related to your interests
-
-*[Screenshot: Navigation flow from search results to Shows/Movies pages]*
 
 The Search page gives you complete control over finding exactly what you want to watch. Whether you're hunting for a half-remembered title from your childhood or looking for the latest critically acclaimed series, the powerful search and filtering tools ensure you'll find what you're looking for quickly and easily.

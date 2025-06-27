@@ -18,7 +18,7 @@ KeepWatching provides a secure and user-friendly authentication system powered b
 
 When you first visit KeepWatching, you'll be greeted with a beautiful landing page that showcases the app's features. The authentication system automatically detects whether you're logged in and redirects you appropriately.
 
-**[Screenshot Placeholder: Landing page with login/register buttons]**
+![Landing Page Screenshot](../images/authentication/auth_landing_page.png)
 
 ### Authentication Flow Overview
 
@@ -36,7 +36,7 @@ To create a new KeepWatching account:
 1. Click the **"Sign Up"** button on the landing page or navigation
 2. You'll be taken to the registration form
 
-![Register Screenshot](../images/authentication/register.png)
+![Register Screenshot](../images/authentication/auth_register.png)
 
 ### Registration Form Fields
 
@@ -62,9 +62,8 @@ The form provides real-time validation:
 - **Name validation**: Shows error if less than 3 characters
 - **Email validation**: Checks for proper email format
 - **Password validation**: Ensures minimum 8 character length
-- **Submit button**: Only enabled when all fields are valid
 
-**[Screenshot Placeholder: Registration form with validation errors]**
+![Register Validation Errors Screenshot](../images/authentication/auth_register_form_errors.png)
 
 ### Account Creation Process
 
@@ -76,7 +75,7 @@ After submitting valid information:
 4. **Automatic login**: You're immediately logged into your new account
 5. **Dashboard redirect**: You're taken to your personalized dashboard
 
-**[Screenshot Placeholder: Success message after registration]**
+![Register Success Screenshot](../images/authentication/auth_register_success.png)
 
 ## Login Methods
 
@@ -91,7 +90,7 @@ The traditional login method using your registered credentials:
 3. Enter your password
 4. Click **"Login"** to authenticate
 
-![Login Screenshot](../images/authentication/login.png)
+![Login Screenshot](../images/authentication/auth_login.png)
 
 #### Login Form Features
 
@@ -109,8 +108,6 @@ For quick and secure access using your Google account:
 2. Choose your Google account from the popup
 3. Grant necessary permissions
 4. Automatic account creation or login
-
-**[Screenshot Placeholder: Google sign-in button and popup]**
 
 #### Google Sign-In Benefits
 
@@ -142,8 +139,6 @@ When you register with email/password:
 3. Click the verification link in the email
 4. Your email will be marked as verified
 
-**[Screenshot Placeholder: Email verification notice in account settings]**
-
 ### Manual Verification
 
 If you haven't received the verification email or need to resend it:
@@ -153,7 +148,7 @@ If you haven't received the verification email or need to resend it:
 3. Click **"Verify Email"** if your email is unverified
 4. A new verification email will be sent
 
-**[Screenshot Placeholder: Verify email button in account management]**
+![Verify Email Screenshot](../images/authentication/auth_verify_email.png)
 
 ### Verification Status
 
@@ -178,7 +173,7 @@ Once logged in, you can manage your account settings and information.
 2. View and edit your account information
 3. Manage profiles and preferences
 
-**[Screenshot Placeholder: Account management page overview]**
+![Manage Account Screenshot](../images/authentication/auth_manage_account.png)
 
 ## Security Features
 
@@ -222,7 +217,7 @@ Securely ending your KeepWatching session:
 3. All authentication tokens are cleared
 4. You're redirected to the landing page
 
-**[Screenshot Placeholder: Logout button in navigation]**
+![Logout Screenshot](../images/authentication/auth_logout.png)
 
 ### Automatic Logout
 
@@ -301,8 +296,6 @@ If you continue experiencing authentication issues:
 1. **Try different browser**: Test with Chrome, Firefox, or Safari
 2. **Clear browser data**: Remove cookies and cache
 3. **Contact support**: Reach out with specific error messages and steps taken
-
-**[Screenshot Placeholder: Error message examples and contact information]**
 
 ---
 
