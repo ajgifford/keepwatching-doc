@@ -1,6 +1,6 @@
 [< Back](../README.md)
 
-# Home/Profile Dashboard User Guide
+# Home/Profile Dashboard - User Guide
 
 The Home/Profile Dashboard is your central hub for managing and tracking your entertainment content. This comprehensive guide will walk you through all the features and functionality available on your personal dashboard.
 
@@ -66,13 +66,11 @@ This tab focuses entirely on your television content and provides:
 #### Content Sections:
 
 ##### Recent Episodes
-*[Screenshot: Recent episodes section]*
 - Recently aired episodes from shows you're watching
 - Perfect for catching up on missed episodes
 - Organized by air date to show newest content first
 
 ##### Upcoming Episodes
-*[Screenshot: Upcoming episodes section]*
 - Episodes from your watched shows that will air soon
 - Helps you stay current with ongoing series
 - Shows air dates and network information

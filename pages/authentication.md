@@ -1,6 +1,6 @@
 [< Back](../README.md)
 
-# Authentication Workflow Guide
+# Authentication - User Guide
 
 KeepWatching provides a secure and user-friendly authentication system powered by Firebase Authentication. This guide covers all authentication features from an end-user perspective, including account creation, login options, email verification, and account management.
 
