@@ -1,3 +1,5 @@
+[< Back](../README.md)
+
 # Movies - User Guide
 
 The Movies feature in KeepWatching allows you to manage your favorite movies, track what you've watched, and discover new films. This guide covers how to use the Movies page and Movie Details page to build and manage your personal movie collection.
@@ -138,9 +140,22 @@ The main watch status button provides:
 - **Instant Updates**: Immediate status changes with loading feedback
 - **Smart Labeling**: Button text changes based on current status ("Mark as Watched" or "Mark Unwatched")
 
-## Finding Related Movies
+## Movie Details Tabs
 
-### Related Content Discovery
+The Movie Details page includes tabbed navigation for different aspects of the movie:
+
+### Cast Tab
+
+![Movies Movie Details Cast Screenshot](../images/movies/movies_movie_details_cast.png)
+
+The Cast tab displays the actors who appear in the movie:
+- **Cast List**: All credited actors for the movie
+- **Character Information**: Character names played by each actor
+- **Profile Photos**: Actor headshots when available
+- **Clickable Cards**: Click any cast member to view their [Person Details](personDetails.md) page
+- **Additional Credits**: Explore what other shows and movies each actor has appeared in
+
+### Related Content Tab
 
 The Movie Details page includes a dedicated tab for content discovery:
 

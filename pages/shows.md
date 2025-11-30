@@ -1,3 +1,5 @@
+[< Back](../README.md)
+
 # Shows - User Guide
 
 The Shows feature in KeepWatching allows you to manage your favorite TV shows, track your viewing progress, and discover new content. This guide covers how to use the Shows page and Show Details page effectively.
@@ -147,6 +149,17 @@ Each episode displays:
 - **Air Date**: When the episode aired or will air
 - **Runtime**: Episode length
 - **Watch Status**: Individual episode completion status
+
+### Cast Tab
+
+![Show Details Cast Tab Screenshot](../images/shows/shows_show_details_cast.png)
+
+The Cast tab displays the actors who appear in the show:
+- **Cast List**: All credited actors for the show
+- **Character Information**: Character names played by each actor
+- **Profile Photos**: Actor headshots when available
+- **Clickable Cards**: Click any cast member to view their [Person Details](personDetails.md) page
+- **Additional Credits**: Explore what other shows and movies each actor has appeared in
 
 ### Related Content Tab
 
