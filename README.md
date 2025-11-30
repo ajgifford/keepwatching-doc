@@ -18,7 +18,8 @@ A modern React-based web application for tracking your favorite TV shows and mov
 
 ### 🔍 Discovery & Search
 - **Content Discovery**: Find trending shows and movies by streaming service
-- **Advanced Search**: Search for shows and movies with filters for year, genre, and more
+- **Advanced Content Search**: Search for shows and movies with filters for year, genre, and more
+- **Person Search**: Find actors, directors, and cast members, then explore their complete filmography
 - **Similar Content**: Get recommendations based on what you're already watching
 - **Streaming Integration**: See which services have your content
 
@@ -56,6 +57,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 
 ### Search & Discovery
 - Multi-criteria search with sorting options
+- Person search with filmography exploration
 - Trending content discovery
 - Service-specific filtering (Netflix, Disney+, etc.)
 - Content type filtering (movies vs. TV shows)
@@ -84,7 +86,7 @@ Movie collection manager for browsing your favorited films, filtering by various
 Content discovery hub for finding trending shows and movies or browsing by specific streaming services like Netflix, Disney+, and HBO Max. Offers filtering by content type, release timing (new, upcoming, expiring), and top-rated selections.
 
 ### [Search](./pages/search.md)
-Advanced search functionality for finding specific shows or movies with filters for premiere year, content type, and sorting options. Provides detailed search results with the ability to add content directly to your favorites.
+Advanced search functionality for finding specific shows, movies, or people (actors, directors, cast members) with filters for premiere year, content type, and sorting options. Features tabs for shows, movies and person search, with the ability to add content directly to your favorites and explore complete filmographies.
 
 ### [Manage Account](./pages/manageAccount.md)
 Account settings page for managing user profile, uploading profile images, creating/editing/deleting family profiles, and viewing detailed viewing statistics. Includes email verification status and the ability to set default profiles for quick access.

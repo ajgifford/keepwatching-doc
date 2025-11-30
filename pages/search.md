@@ -2,32 +2,47 @@
 
 # Search - User Guide
 
-The Search page is your powerful tool for finding specific shows and movies by name. Whether you know exactly what you're looking for or want to explore content from a particular year or genre, the advanced search capabilities help you find precisely what you want to watch.
+The Search page is your powerful tool for finding specific shows, movies, and people (actors, directors, cast members). Whether you know exactly what you're looking for or want to explore content from a particular year or genre, the advanced search capabilities help you find precisely what you want to watch.
 
 ## Overview
 
-The Search page provides comprehensive search functionality with:
-- **Text-based search** for finding specific titles
-- **Content type filtering** (TV Shows vs Movies)
+The Search page provides comprehensive search functionality with tabbed interfaces:
+
+### TV Shows & Movies Search Tabs
+- **Text-based search** for finding specific shows and movies
 - **Year filtering** for discovering content from specific time periods
 - **Advanced sorting options** to organize results by your preferences
 - **Infinite scroll results** that load more content as you browse
 
+### Person Search Tab
+- **Actor and director search** by name
+- **Complete filmography** for each person
+- **Biography information** and career details
+- **Direct links** to shows and movies in their credits
+
 ![Search Screenshot](../images/search/search.png)
 
-## Getting Started
+## Search Tabs
+
+The Search page features three tabs:
+1. **TV Shows Search** - For finding TV shows
+1. **Movies Search** - For finding movies
+2. **Person Search** - For finding actors, directors, and other cast/crew members
+
+## TV Shows & Movies Search
+
+The TV Shows and Movies tabs provide specialized search for each content type.
 
 ### Basic Search Setup
 
-1. **Enter Your Search Term**
+1. **Select Your Tab**
+   - Click on either "TV Shows" or "Movies" tab based on what you're looking for
+   - Each tab provides specialized search for that content type
+
+2. **Enter Your Search Term**
    - Type the name of a show or movie in the search box
    - The search is flexible - you don't need the exact title
    - Partial matches and similar titles will appear in results
-
-2. **Select Content Type**
-   - Choose between "TV Shows" and "Movies" using the selector
-   - This determines what type of content appears in your search results
-   - You can change this selection and search again for different results
 
 3. **Perform Your Search**
    - Click the "Search" button or press Enter in the search box
@@ -35,6 +50,84 @@ The Search page provides comprehensive search functionality with:
 
 ![Search TV Show Results Screenshot](../images/search/search_tv_show.png)
 ![Search Movies Results Screenshot](../images/search/search_movie.png)
+
+## Person Search
+
+The Person Search tab allows you to find actors, directors, writers, and other cast/crew members and explore their complete filmography.
+
+### How to Search for People
+
+1. **Select the People Tab**
+   - Click on the "People" tab at the top of the search page
+
+2. **Enter a Person's Name**
+   - Type the name of an actor, director, writer, or other cast member in the search box
+   - Examples: "Tom Hanks", "Spielberg", "Margot Robbie"
+   - You can use partial names - the search will find close matches
+
+3. **Search**
+   - Click the "Search" button or press Enter
+   - A disambiguation dialog will appear with matching people
+
+### Selecting the Right Person
+
+When multiple people match your search, you'll see a **disambiguation dialog** with:
+
+- **Profile Picture** - Photo of the person (when available)
+- **Name** - Full name of the person
+- **Department** - Their primary role (Acting, Directing, Writing, Production)
+- **Known For** - Up to 3 of their most popular works
+- **Popularity Score** - A metric to help identify the correct person
+
+**To select a person:**
+1. Review the list of matching people in the dialog
+2. Click on the person you're looking for
+3. The dialog will close and their filmography will be displayed
+
+### Viewing Filmography
+
+Once you've selected a person, you'll see their complete filmography with:
+
+#### Filmography Tabs
+- **Movies Tab** - All movie credits with count
+- **TV Shows Tab** - All TV show credits with count
+
+#### Sort Options
+Within each tab, you can sort credits by:
+- **Newest First** - Most recent releases first (default)
+- **Oldest First** - Earliest work first
+- **Title A-Z** - Alphabetical order
+- **Most Popular** - Based on release date and popularity
+
+#### Credit Information
+Each credit shows:
+- **Poster Image** - Movie or show poster
+- **Title** - Name of the movie or show
+- **Role** - Character name or job title
+- **Release Date** - When it aired or was released
+- **Favorite Button** - Add the content directly to your collection
+
+#### Career Summary
+At the bottom of the filmography, you'll see:
+- Total movie credits count
+- Total TV show credits count
+- Overall total credits across their career
+
+### Confidence Banner
+
+If the search system has low confidence in the person selection, you'll see a banner at the top that allows you to:
+- View alternative matches
+- Re-open the disambiguation dialog to select a different person
+- Confirm you have the right person
+
+### Adding Content from Filmography
+
+You can add any movie or TV show from the person's filmography directly to your favorites:
+1. Find a movie or show in their credits
+2. Click the favorite button on the content card
+3. The content will be added to your Shows or Movies collection
+4. Navigate to your Shows or Movies pages to set watch status and track progress
+
 
 ## Advanced Filtering Options
 
