@@ -11,6 +11,8 @@ The Manage Account page allows you to:
 - Manage multiple viewing profiles for your family
 - View detailed statistics for your account and individual profiles
 - Set default profiles and switch between active profiles
+- Configure your preferences and application settings
+- Delete your account
 
 ![Manage Account Screenshot](../images/manageAccount/manage_account_all.png)
 
@@ -32,7 +34,7 @@ Your account profile picture is displayed prominently at the top of the page.
 1. Hover over your current account image
 2. Click when you see the "Manage Image" overlay
 3. Select the 'Remove image' option
-5. The image will be automatically removed
+4. The image will be automatically removed
 
 ### Account Details
 Your account information is displayed next to your profile picture:
@@ -42,6 +44,12 @@ Your account information is displayed next to your profile picture:
 - **Default Profile**: Shows which profile is set as your default
 - **Active Profile**: Shows which profile is currently active
 - **Last Updated**: Timestamp of when your profile data was last refreshed
+
+The account name section also includes action buttons for:
+- **Edit** (pencil icon) - Edit your account name
+- **Statistics** (chart icon) - View account-wide statistics
+- **Preferences** (gear icon) - Configure application preferences
+- **Delete Account** (trash icon) - Permanently delete your account
 
 ![Manage Account Screenshot Account Details Image](../images/manageAccount/manage_account_account_details.png)
 
@@ -59,17 +67,66 @@ If your email isn't verified, you'll see a "Verify Email" button next to your em
 3. Follow the link in the email to complete verification
 4. Return to the page to see the updated verification status
 
+## Preferences
+
+Click the preferences icon (gear) next to your account name to configure application settings.
+
+**Preferences include:**
+- **Theme Selection**: Choose between Light, Dark, or Auto theme
+  - Light: Always use light theme
+  - Dark: Always use dark theme
+  - Auto: Automatically match your system theme preference
+- **Email Preferences**: Configure email notifications
+  - Weekly Digest: Receive weekly summary emails (requires verified email)
+
+The preferences dialog allows you to customize your viewing experience across all devices. Changes are saved when you click the "Save" button.
+
+**Note**: Email preferences require a verified email address to enable.
+
 ## Account Statistics
 Click the statistics icon next to your account name to view comprehensive account-wide analytics.
 
 **Account Statistics include:**
-- Overall episode watch progress across all profiles
-- Total number of profiles, unique shows, and movies
-- Watch status breakdowns for shows and movies
-- Genre and streaming service distributions
-- Content breakdown charts
+- **Base Statistics**: Core metrics including:
+  - Overall episode watch progress across all profiles
+  - Total number of profiles, unique shows, and movies
+  - Watch status breakdowns for shows and movies
+  - Genre and streaming service distributions
+  - Content breakdown charts
+
+- **Enhanced Statistics**: Advanced analytics including:
+  - **Velocity Metrics**: Watch rate and episode velocity over time
+  - **Timeline Analysis**: Watch history and activity patterns over time
+  - **Binge Patterns**: Consecutive watch sessions and binge-watching behavior
+  - **Streaks**: Longest watch streaks and consistency tracking
+  - **Time-to-Watch Analysis**: How quickly you watch content after adding it
+  - **Seasonal Trends**: Viewing patterns by season and time of year
+  - **Milestones**: Achievements and viewing milestones reached
+  - **Content Depth**: Genre preferences and streaming service distribution
+  - **Content Discovery**: How you discover and add new content
+  - **Abandonment Risk**: Shows at risk of being abandoned
+  - **Unaired Content**: Tracking of upcoming and unaired episodes
+  - **Profile Comparisons**: Compare viewing patterns across profiles
+
+The statistics are fetched in parallel and displayed in an interactive dashboard with charts and visualizations powered by the KeepWatching UI library.
 
 ![Manage Account Screenshot Account Stats Image](../images/manageAccount/manage_account_accounts_stats.png)
+
+## Deleting Your Account
+
+The delete account feature allows you to permanently remove your account and all associated data.
+
+**To delete your account:**
+1. Click the delete icon (trash) next to your account name
+2. A confirmation dialog will appear
+3. Type your exact account name to confirm deletion
+4. Click "Delete Account" to proceed
+
+**Important Warnings:**
+- Deleting your account removes ALL data including all profiles and watch history
+- This action is PERMANENT and cannot be undone
+- The delete button is only enabled when you correctly type your account name
+- You will be logged out immediately after deletion
 
 ## Profile Management
 
@@ -112,10 +169,25 @@ The "Set Default" button makes a profile your account's default:
 
 #### View Profile Statistics
 Click "View Stats" to see detailed analytics for that specific profile:
-- Individual viewing progress and statistics
-- Show completion rates and progress bars
-- Genre preferences and streaming service usage
-- Episode watch progress charts
+
+- **Base Statistics**: Core metrics including:
+  - Individual viewing progress and statistics
+  - Show completion rates and progress bars
+  - Genre preferences and streaming service usage
+  - Episode watch progress charts
+
+- **Enhanced Statistics**: Advanced analytics including:
+  - **Velocity Metrics**: Personal watch rate and viewing pace
+  - **Timeline Analysis**: Personal watch history and patterns
+  - **Binge Patterns**: Individual viewing sessions and habits
+  - **Streaks**: Personal consistency tracking
+  - **Time-to-Watch Analysis**: How quickly content is watched after adding
+  - **Seasonal Trends**: Personal viewing patterns by season
+  - **Milestones**: Personal achievements and milestones reached
+  - **Content Depth**: Genre preferences and streaming service usage
+  - **Content Discovery**: How the profile discovers new content
+  - **Abandonment Risk**: Shows at risk of being abandoned
+  - **Unaired Content**: Tracking of upcoming episodes for this profile
 
 ![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
 ![Manage Account Screenshot Profile Stats Joan](../images/manageAccount/manage_account_profile_stats_joan.png)
@@ -149,6 +221,23 @@ Click "View Stats" to see detailed analytics for that specific profile:
 
 ![Manage Account Screenshot Delete Profile](../images/manageAccount/manage_account_delete_profile.png)
 
+## Profile Switching via Navigation
+
+In addition to the Manage Account page, you can quickly switch profiles from the navigation bar:
+
+1. Click on your profile avatar in the top-right corner of the navigation bar
+2. A menu will appear showing all available profiles
+3. Select the profile you want to switch to
+4. You'll be automatically redirected to the home page with the new profile active
+
+**Navigation Menu Features:**
+- **Switch Profile Section**: Lists all profiles with their avatars
+- **Active Profile Indicator**: The currently active profile is highlighted
+- **Manage Account**: Quick link to the Manage Account page
+- **Logout**: Sign out of your account
+
+This provides a convenient way to switch between profiles without navigating to the Manage Account page.
+
 ## Profile Switching Workflow
 
 ### Understanding Active vs Default Profiles
@@ -176,10 +265,13 @@ When you set a new active profile:
 
 ### Account Management
 - Review account statistics periodically to understand viewing patterns
+- Explore enhanced statistics for deeper insights into viewing habits
+- Configure preferences to customize your experience
+- Verify your email to enable email preferences
 
 ### Data Management
 - Be cautious when deleting profiles as this removes all watch history
-- Use the "Set Active" feature to quickly switch between family members
+- Use the "Set Active" feature or navigation menu to quickly switch between family members
 - Consider creating separate profiles for different viewing contexts
 
 ## Troubleshooting
@@ -189,6 +281,7 @@ When you set a new active profile:
 **Profile not updating after switching:**
 - Refresh the page after switching active profiles
 - Check that the profile change was successful by verifying the "Active Profile" field
+- Try switching profiles via the navigation menu instead
 
 **Upload issues with profile pictures:**
 - Ensure image files are in supported formats (JPG, PNG, GIF)
@@ -204,6 +297,17 @@ When you set a new active profile:
 - You cannot delete your default profile - set a different default first
 - Ensure you really want to delete the profile as this action is permanent
 
+**Statistics not loading:**
+- Check your internet connection
+- Refresh the page and try again
+- Some enhanced statistics may take longer to load
+- If issues persist, contact support
+
+**Preferences not saving:**
+- Ensure you click the "Save" button in the preferences dialog
+- Check your internet connection
+- Email preferences require a verified email address
+
 ### Getting Help
 If you encounter issues not covered in this guide:
 1. Check the main application help documentation
@@ -217,7 +321,9 @@ If you encounter issues not covered in this guide:
 - Your account information is securely stored and encrypted
 - Profile pictures are stored safely and only visible to your account
 - Email verification helps protect your account from unauthorized access
+- Account deletion is protected by name confirmation to prevent accidental deletion
 
 ### Data Privacy
 - Each profile's viewing data is isolated and private
 - Only account holders can view profile statistics and information
+- All data is permanently removed when you delete your account
