@@ -35,6 +35,12 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Recent Releases**: Stay up to date with newly released content
 - **Firebase Authentication**: Secure login with email/password or Google
 
+### 🔔 Notifications
+- **Real-Time Alerts**: Stay informed about new episodes and movie releases
+- **System Updates**: Get notified about new features and important announcements
+- **Notification Center**: Manage notifications with search, filtering, and bulk actions
+- **Quick Access Dropdown**: View recent notifications directly from the navigation bar
+
 ## Key Features Breakdown
 
 ### Authentication Flow
@@ -68,6 +74,16 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - Account-wide and profile-specific analytics
 - Interactive charts and progress bars
 
+### Notification System
+- Real-time notifications via WebSocket for instant updates
+- Multiple notification types: TV shows, movies, system updates, features, and issues
+- Quick-access dropdown in navigation bar showing recent notifications
+- Full-page notification center with advanced management
+- Search and filter capabilities for finding specific notifications
+- Bulk actions for marking all as read/unread or dismissing all
+- Individual notification actions (mark as read/unread, dismiss)
+- Unread badge counter for at-a-glance notification status
+
 ## Workflows
 
 ### [Authentication](./pages/authentication.md)
@@ -90,3 +106,6 @@ Advanced search functionality for finding specific shows, movies, or people (act
 
 ### [Manage Account](./pages/manageAccount.md)
 Account settings page for managing user profile, uploading profile images, creating/editing/deleting family profiles, and viewing detailed viewing statistics. Includes email verification status and the ability to set default profiles for quick access.
+
+### [Notifications](./pages/notifications.md)
+Comprehensive notification system keeping you informed about new episodes, movie releases, system updates, and feature announcements. Provides both a quick-access dropdown in the navigation bar and a full-page notification center with search, filtering, and management capabilities.
