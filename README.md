@@ -34,6 +34,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Upcoming Episodes**: See when new episodes of your shows are airing
 - **Recent Releases**: Stay up to date with newly released content
 - **Firebase Authentication**: Secure login with email/password or Google
+- **Dark/Light Theme**: Toggle between dark and light themes to match your preference
 
 ### 🔔 Notifications
 - **Real-Time Alerts**: Stay informed about new episodes and movie releases
@@ -60,6 +61,11 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - Profile-specific statistics and recommendations
 - Image upload for profile customization
 - Default profile settings
+
+### User Preferences
+- Dark/light theme switching with persistent settings
+- Theme preference saved per user account
+- Seamless theme transitions across all pages
 
 ### Search & Discovery
 - Multi-criteria search with sorting options
