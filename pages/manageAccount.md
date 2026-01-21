@@ -71,6 +71,8 @@ If your email isn't verified, you'll see a "Verify Email" button next to your em
 
 Click the preferences icon (gear) next to your account name to configure application settings.
 
+![Manage Account Screenshot Preferences](../images/manageAccount/manage_account_preferences.png)
+
 **Preferences include:**
 - **Theme Selection**: Choose between Light, Dark, or Auto theme
   - Light: Always use light theme
@@ -110,11 +112,16 @@ Click the statistics icon next to your account name to view comprehensive accoun
 
 The statistics are fetched in parallel and displayed in an interactive dashboard with charts and visualizations powered by the KeepWatching UI library.
 
-![Manage Account Screenshot Account Stats Image](../images/manageAccount/manage_account_accounts_stats.png)
+![Manage Account Screenshot Account Stats Image 1](../images/manageAccount/manage_account_accounts_stats.png)
+![Manage Account Screenshot Account Stats Image 2](../images/manageAccount/manage_account_accounts_stats2.png)
+![Manage Account Screenshot Account Stats Image 3](../images/manageAccount/manage_account_accounts_stats3.png)
+![Manage Account Screenshot Account Stats Image 4](../images/manageAccount/manage_account_accounts_stats4.png)
 
 ## Deleting Your Account
 
 The delete account feature allows you to permanently remove your account and all associated data.
+
+![Manage Account Screenshot Delete Account](../images/manageAccount/manage_account_delete.png)
 
 **To delete your account:**
 1. Click the delete icon (trash) next to your account name
@@ -189,8 +196,8 @@ Click "View Stats" to see detailed analytics for that specific profile:
   - **Abandonment Risk**: Shows at risk of being abandoned
   - **Unaired Content**: Tracking of upcoming episodes for this profile
 
-![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
 ![Manage Account Screenshot Profile Stats Joan](../images/manageAccount/manage_account_profile_stats_joan.png)
+![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
 
 #### Edit Profile
 1. Click "Edit" on a profile card
@@ -224,6 +231,8 @@ Click "View Stats" to see detailed analytics for that specific profile:
 ## Profile Switching via Navigation
 
 In addition to the Manage Account page, you can quickly switch profiles from the navigation bar:
+
+![Manage Account Screenshot Profile Switching](../images/manageAccount/manage_account_profile_switching.png)
 
 1. Click on your profile avatar in the top-right corner of the navigation bar
 2. A menu will appear showing all available profiles
