@@ -105,6 +105,7 @@ Your movie management center includes:
 - Section headers provide quick navigation to your movies page
 
 ### 4. By Service Tab
+![Home Page By Service Tab Screenshot](../images/home/home_services.png)
 
 This tab organizes all your content by streaming platform, making it easy to browse what's available on each service:
 
@@ -156,9 +157,31 @@ A comprehensive analytics dashboard powered by advanced statistics and insights:
 - **Content Counts**: Total shows, movies, and episodes in your profile
 - **Watch Status Distribution**: Charts showing the breakdown of your content by watch status
 
+#### Traditional Analytics:
+
+##### Watch Status Charts
+- Visual representation of your content by status (Watched, Watching, Not Watched, Up to Date)
+- Separate tracking for shows and movies
+- Helps identify your viewing patterns
+
+##### Genre Distribution
+- Pie chart showing your top genres by content count
+- Discover your favorite types of entertainment
+- Based on all shows and movies in your profile
+
+##### Streaming Services
+- Bar chart of content by streaming platform
+- See which services provide most of your content
+- Useful for subscription management decisions
+
+##### Active Shows Progress
+- Detailed progress bars for shows you're actively watching
+- See completion percentage for each show
+- Track how close you are to finishing series
+
 #### Enhanced Analytics:
 
-This tab now features an advanced statistics dashboard with multiple categories of insights:
+This tab also features a set of enhanced statistics with multiple categories of insights:
 
 ##### Viewing Velocity
 - Track your watching pace over the last 30 days
@@ -214,32 +237,6 @@ This tab now features an advanced statistics dashboard with multiple categories 
 - Upcoming episodes and movies
 - Future content in your watchlist
 - Release date tracking
-
-#### Traditional Analytics (Still Available):
-
-##### Watch Status Charts
-![Home Page Watch Status Chart Screenshot](../images/home/home_stats_watch_status.png)
-- Visual representation of your content by status (Watched, Watching, Not Watched, Up to Date)
-- Separate tracking for shows and movies
-- Helps identify your viewing patterns
-
-##### Genre Distribution
-![Home Page Genres Chart Screenshot](../images/home/home_stats_genres.png)
-- Pie chart showing your top genres by content count
-- Discover your favorite types of entertainment
-- Based on all shows and movies in your profile
-
-##### Streaming Services
-![Home Page Streaming Services Chart Screenshot](../images/home/home_stats_services.png)
-- Bar chart of content by streaming platform
-- See which services provide most of your content
-- Useful for subscription management decisions
-
-##### Active Shows Progress
-![Home Page Show Progress Screenshot](../images/home/home_stats_show_progress.png)
-- Detailed progress bars for shows you're actively watching
-- See completion percentage for each show
-- Track how close you are to finishing series
 
 #### Loading Behavior:
 - Base statistics load first for quick initial view
