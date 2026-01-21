@@ -23,11 +23,17 @@ The notification icon is always visible in the top navigation bar, next to your 
 **Notification Icon States:**
 - **Bell Icon (inactive)**: No unread notifications
 - **Bell Icon with Badge**: Shows the count of unread notifications
-- **Active Bell Icon**: Animated icon when you have unread notifications
+
+![Notifications Badge Screenshot](../images/notifications/notifications_badge_read.png)
+![Notifications Unread Badge Screenshot](../images/notifications/notifications_badge_unread.png)
 
 The badge displays the exact number of unread notifications, making it easy to see at a glance when you have new updates.
 
 ### Opening the Notification Dropdown
+
+![Notifications Dropdown Empty Screenshot](../images/notifications/notifications_dropdown_none.png)
+![Notifications Dropdown Unread Screenshot](../images/notifications/notifications_dropdown_unread.png)
+![Notifications Dropdown Read Screenshot](../images/notifications/notifications_dropdown_read.png)
 
 1. **Click the Notification Icon**
    - Located in the top navigation bar
@@ -123,7 +129,7 @@ Navigate to the full notifications page by:
 
 The notifications page provides comprehensive notification management with advanced filtering and search capabilities.
 
-![Notifications Page Screenshot](../images/notifications/notifications.png)
+![Notifications Details Screenshot](../images/notifications/notifications_details.png)
 
 ### Page Layout
 
@@ -264,6 +270,8 @@ When no notifications match your filters or search:
   - "[Show Name] Season X Episode Y has aired"
 - **What to do**: Navigate to the show to mark episodes as watched
 
+![Notifications Details TV Show Screenshot](../images/notifications/notifications_details_tvshow.png)
+
 ### Movie Notifications
 - **Icon**: Purple movie icon
 - **Purpose**: Alert you when movies in your watchlist are released
@@ -271,6 +279,8 @@ When no notifications match your filters or search:
   - "[Movie Name] is now available to watch"
   - "[Movie Name] has been released in theaters"
 - **What to do**: Navigate to the movie details to update watch status
+
+![Notifications Details Movie Screenshot](../images/notifications/notifications_details_movie.png)
 
 ### Issue Notifications
 - **Icon**: Orange warning icon
@@ -281,6 +291,8 @@ When no notifications match your filters or search:
   - "Known issue with [feature]"
 - **What to do**: Read carefully and take any suggested actions
 
+![Notifications Details Issue Screenshot](../images/notifications/notifications_details_issue.png)
+
 ### Feature Notifications
 - **Icon**: Green sparkle icon
 - **Purpose**: Announce new features and improvements
@@ -290,6 +302,8 @@ When no notifications match your filters or search:
   - "Update: [Feature] has been improved"
 - **What to do**: Explore the new feature or read about improvements
 
+![Notifications Details Feature Screenshot](../images/notifications/notifications_details_feature.png)
+
 ### General Notifications
 - **Icon**: Blue info icon
 - **Purpose**: Provide general information and announcements
@@ -298,6 +312,9 @@ When no notifications match your filters or search:
   - Tips and recommendations
   - Account-related information
 - **What to do**: Read for context and information
+
+![Notifications Details General New Screenshot](../images/notifications/notifications_details_general_new.png)
+![Notifications Details General Screenshot](../images/notifications/notifications_details_general.png)
 
 ## Notification Workflow
 
@@ -317,63 +334,6 @@ When no notifications match your filters or search:
 4. Read through notifications in detail
 5. Take action on content notifications (watch episodes, update status)
 6. Dismiss or archive old notifications
-
-### Managing Notification Overload
-
-**If you have many notifications:**
-
-1. **Use Filters First**:
-   - Start with "Unread" to focus on new notifications
-   - Switch to "Content Updates" for show/movie notifications
-   - Use "System Notifications" for app updates
-
-2. **Search for Specific Content**:
-   - Type show names to find related notifications
-   - Search by keywords to find specific types of updates
-
-3. **Bulk Actions**:
-   - Mark all as read after reviewing
-   - Dismiss all if you want a fresh start
-
-4. **Prioritize**:
-   - Focus on content notifications first
-   - Review system/feature notifications when you have time
-   - Dismiss old or irrelevant notifications
-
-## Best Practices
-
-### Keep Your Notifications Organized
-
-1. **Regular Cleanup**:
-   - Review notifications daily or weekly
-   - Dismiss notifications you've acted upon
-   - Mark important ones as unread for follow-up
-
-2. **Use the Right Tool**:
-   - Dropdown: Quick checks and recent notifications
-   - Full page: Comprehensive review and management
-   - Search: Finding specific notifications
-
-3. **Action-Oriented**:
-   - When you see a content notification, navigate to that content
-   - Update watch status immediately
-   - Don't let notifications pile up
-
-### Notification Hygiene
-
-1. **Don't Ignore Unread Badges**:
-   - The badge count is there to help you stay current
-   - Regular reviews prevent notification overload
-
-2. **Dismiss Wisely**:
-   - Dismiss notifications you've fully processed
-   - Keep important system notifications until you've acted on them
-   - Remember dismissed notifications cannot be recovered
-
-3. **Use Filters Effectively**:
-   - Filter by type when looking for specific information
-   - Use search when you remember keywords
-   - Combine search and filters for precise results
 
 ## Troubleshooting
 
@@ -406,38 +366,12 @@ When no notifications match your filters or search:
 - Click the notification icon again
 - Refresh the page
 - Ensure no other modals are open
-- Try using the full notifications page instead
-
-## Tips for Power Users
-
-### Strategic Notification Management
-
-1. **Morning Review**:
-   - Check dropdown for overnight updates
-   - Mark content notifications and navigate to update watch status
-   - Dismiss processed notifications
-
-2. **Weekly Cleanup**:
-   - Visit full notifications page
-   - Review all system notifications
-   - Dismiss old notifications
-   - Mark important items as unread for follow-up
-
-3. **Stay Current**:
-   - Don't let unread count exceed 20
-   - Regular small reviews are better than infrequent large ones
-   - Use filters to make reviews faster
 
 ## Integration with Other Features
 
 ### Notifications and Content Management
 
 Notifications work seamlessly with other KeepWatching features:
-
-**Show/Movie Tracking:**
-- Content notifications link to the actual shows/movies
-- Click notification → Navigate to content → Update watch status
-- Notifications help you stay current with new releases
 
 **Profile Activity:**
 - Notifications are account-level, not profile-level
