@@ -4,6 +4,8 @@
 
 The Search page is your powerful tool for finding specific shows, movies, and people (actors, directors, cast members). Whether you know exactly what you're looking for or want to explore content from a particular year or genre, the advanced search capabilities help you find precisely what you want to watch.
 
+![Search Screenshot](../images/search/search.png)
+
 ## Overview
 
 The Search page provides comprehensive search functionality with tabbed interfaces:
@@ -20,7 +22,6 @@ The Search page provides comprehensive search functionality with tabbed interfac
 - **Biography information** and career details
 - **Direct links** to shows and movies in their credits
 
-![Search Screenshot](../images/search/search.png)
 
 ## Search Tabs
 
@@ -55,6 +56,9 @@ The TV Shows and Movies tabs provide specialized search for each content type.
 
 The Person Search tab allows you to find actors, directors, writers, and other cast/crew members and explore their complete filmography.
 
+![Search People Screenshot](../images/search/search_people.png)
+![Search People Results Screenshot](../images/search/search_people_results.png)
+
 ### How to Search for People
 
 1. **Select the People Tab**
@@ -70,6 +74,8 @@ The Person Search tab allows you to find actors, directors, writers, and other c
    - A disambiguation dialog will appear with matching people
 
 ### Selecting the Right Person
+
+![Search People Multiple Results Screenshot](../images/search/search_ambiguous_person.png)
 
 When multiple people match your search, you'll see a **disambiguation dialog** with:
 
@@ -120,6 +126,8 @@ If the search system has low confidence in the person selection, you'll see a ba
 - Re-open the disambiguation dialog to select a different person
 - Confirm you have the right person
 
+![Search People Confidence Banner Screenshot](../images/search/search_person_confidence_banner.png)
+
 ### Adding Content from Filmography
 
 You can add any movie or TV show from the person's filmography directly to your favorites:
@@ -142,7 +150,7 @@ Narrow down your search by premiere year:
 
 2. **Combine with Search Terms**
    - Year filtering works alongside your text search
-   - For example: Search "Star" + Year "1977" to find "Star Wars"
+   - For example: Search "Mission" + Year "2023" to find "Mission Impossible: Dead Reckoning Part One"
    - This helps when multiple shows/movies have similar names
 
 ![Search Movies Results Filtered by Year Screenshot](../images/search/search_movie_filtered.png)
