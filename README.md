@@ -104,6 +104,9 @@ Complete TV show management interface where you can view all your favorited show
 ### [Movies](./pages/movies.md)
 Movie collection manager for browsing your favorited films, filtering by various criteria, and updating watch status from "Not Watched" to "Watched". Features detailed movie information including runtime, ratings, and streaming availability.
 
+### [Person Details](./pages/personDetails.md)
+Comprehensive profile pages for actors, directors, and crew members accessible from show/movie cast tabs. Displays biographical information including birthdate, birthplace, and full biography, along with filmography showing movie and TV credits from your favorited content in KeepWatching with character roles and episode counts.
+
 ### [Discover](./pages/discover.md)
 Content discovery hub for finding trending shows and movies or browsing by specific streaming services like Netflix, Disney+, and HBO Max. Offers filtering by content type, release timing (new, upcoming, expiring), and top-rated selections.
 
