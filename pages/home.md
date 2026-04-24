@@ -30,7 +30,7 @@ Four summary cards provide instant insights into your viewing habits:
 
 ## Navigation Tabs
 
-The dashboard is organized into five main tabs, each serving a specific purpose:
+The dashboard is organized into six main tabs, each serving a specific purpose:
 
 ### 1. Keep Watching Tab
 ![Home Page Keep Watching Tab Screenshot](../images/home/home_keepwatching.png)
@@ -76,6 +76,9 @@ This tab focuses entirely on your television content and provides:
 - Shows air dates and network information
 - Click any episode to go to the show's detail page
 
+#### Calendar Shortcut
+A **View Calendar** button at the top of the tab links directly to the full [Calendar](calendar.md) page, where you can see all upcoming and recently aired episodes in agenda or month grid view.
+
 #### Navigation Features:
 - Episode tiles link directly to show detail pages
 - Section headers provide quick navigation to your shows page
@@ -96,6 +99,9 @@ Your movie management center includes:
 - Movies in your watchlist that haven't been released yet
 - Plan your future movie watching
 - Track anticipated releases
+
+#### Calendar Shortcut
+A **View Calendar** button at the top of the tab links directly to the full [Calendar](calendar.md) page, where you can see all upcoming and recently released movies in agenda or month grid view.
 
 #### Movie Management:
 - Each movie tile shows poster, title, release date, and streaming services
@@ -147,7 +153,21 @@ Each streaming service has its own section containing:
 - Real-time updates when content is added or removed
 - Helps optimize streaming subscriptions based on your actual content
 
-### 5. Statistics Tab
+### 5. Community Tab
+
+![Home Page Community Tab Screenshot](../images/home/home_community.png)
+
+The Community tab surfaces content that other KeepWatching users have recommended. It is a great way to discover shows and movies that real people are watching and enjoying.
+
+#### What You'll See:
+- **Recommendation cards**: Each card shows the recommended show or movie, the community member who recommended it, their optional message, and their rating (if included)
+- **Content type filter**: Toggle between All, Shows, and Movies to narrow the feed
+- **Favorite button**: Add any recommended title directly to your favorites from the card
+
+#### How It Works:
+Users recommend content from the Show Details or Movie Details page using the **Recommend** button. Those recommendations appear here for all community members to discover.
+
+### 6. Statistics Tab
 ![Home Page Stats Tab Screenshot](../images/home/home_stats.png)
 
 A comprehensive analytics dashboard powered by advanced statistics and insights:

@@ -10,6 +10,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Movie Management**: Build your movie watchlist and track what you've seen
 - **Watch Status**: Track shows as "Not Watched", "Watching", "Up to Date", or "Watched"
 - **Episode Progress**: See exactly which episodes you've watched and which are next
+- **Rewatch Support**: Start a rewatch of any completed show, season, or movie and track it separately
 
 ### 👨‍👩‍👧‍👦 Multi-Profile Support
 - **Family Profiles**: Create separate profiles for each family member
@@ -23,6 +24,18 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Similar Content**: Get recommendations based on what you're already watching
 - **Streaming Integration**: See which services have your content
 
+### ⭐ Ratings & Community
+- **Personal Ratings**: Rate any show or movie 1–5 stars and add private notes from the detail page
+- **Community Recommendations**: Recommend content to other users with an optional message and rating
+- **Community Feed**: Browse community recommendations on the Home page to discover what others are watching
+- **Recommendation Details**: See all community reviews and ratings for a specific title
+
+### 📅 Calendar & History
+- **Content Calendar**: View upcoming and recently aired episodes and movies in an agenda list or month grid view
+- **Watch History**: Full paginated history of every episode and movie you've watched, with rich filtering
+- **Prior Watch Tracking**: Record watch history for shows you watched before joining KeepWatching, using original air dates
+- **Rewatch History**: Prior watches and rewatches are clearly labelled and filterable in your history
+
 ### 📊 Statistics & Insights
 - **Viewing Analytics**: Track your watching habits with detailed statistics
 - **Progress Charts**: Visual representation of your viewing progress
@@ -35,6 +48,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Recent Releases**: Stay up to date with newly released content
 - **Firebase Authentication**: Secure login with email/password or Google
 - **Dark/Light Theme**: Toggle between dark and light themes to match your preference
+- **PWA / Installable App**: Install KeepWatching on any device for a native app experience with offline support
 
 ### 🔔 Notifications
 - **Real-Time Alerts**: Stay informed about new episodes and movie releases
@@ -66,6 +80,36 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - Dark/light theme switching with persistent settings
 - Theme preference saved per user account
 - Seamless theme transitions across all pages
+
+### Ratings & Community Recommendations
+- 1–5 star ratings with optional private notes on every show and movie detail page
+- Recommend content to the community with an optional personal message
+- Community tab on the Home page surfaces recommendations from all users
+- Recommendation detail dialog shows ratings and messages from other community members
+
+### Prior Watch & Rewatch
+- Prior Watch Prompt when opening a show you've never marked — record episodes watched before joining with original air dates
+- Season-level prior watch dialog when marking a full season watched for the first time
+- Skipped episode/season prompts to help keep your history accurate when you mark content out of order
+- Bulk-mark detection banner warns when many episodes were marked on the same day and offers to fix dates using original air dates
+- Rewatch buttons on completed shows, seasons, and movies to start a new tracked viewing pass
+
+### Content Calendar
+- Agenda (list) and grid (month) views showing episodes and movies by air/release date
+- Defaults to 30 days past and 60 days future; automatically expands when navigating to new months
+- View preference (agenda vs. grid) persisted across sessions
+- Compact calendar embedded in the Home page TV Shows and Movies tabs for quick glance
+
+### Watch History
+- Full paginated history with filters for content type, date range, prior watch status, and title search
+- Each entry shows watch count, prior watch badge, runtime, and exact watch date
+- Sort ascending or descending by watch date
+
+### Installable PWA
+- Install from the browser or app store on any device for a standalone app experience
+- Offline fallback page when the network is unavailable
+- Service worker caches static assets and images for faster loads
+- In-app update prompt notifies you when a new version is available
 
 ### Search & Discovery
 - Multi-criteria search with sorting options
@@ -114,7 +158,13 @@ Content discovery hub for finding trending shows and movies or browsing by speci
 Advanced search functionality for finding specific shows, movies, or people (actors, directors, cast members) with filters for premiere year, content type, and sorting options. Features tabs for shows, movies and person search, with the ability to add content directly to your favorites and explore complete filmographies.
 
 ### [Manage Account](./pages/manageAccount.md)
-Account settings page for managing user profile, uploading profile images, creating/editing/deleting family profiles, and viewing detailed viewing statistics. Includes email verification status and the ability to set default profiles for quick access.
+Account settings page for managing user profile, uploading profile images, creating/editing/deleting family profiles, and viewing detailed viewing statistics. Includes email verification status, the ability to set default profiles for quick access, and tools to review and correct bulk-marked watch history.
 
 ### [Notifications](./pages/notifications.md)
 Comprehensive notification system keeping you informed about new episodes, movie releases, system updates, and feature announcements. Provides both a quick-access dropdown in the navigation bar and a full-page notification center with search, filtering, and management capabilities.
+
+### [Calendar](./pages/calendar.md)
+Visual content calendar showing upcoming and recently aired episodes and movies. Toggle between an agenda list view and a month grid view. Accessible from the TV Shows and Movies tabs on the Home page, or directly via the navigation menu.
+
+### [Watch History](./pages/watchHistory.md)
+Complete paginated record of every episode and movie you have watched, including rewatches and prior-watch entries. Filter by content type, date range, prior watch status, and title search. Also provides tools to start rewatches of completed shows, seasons, and movies.

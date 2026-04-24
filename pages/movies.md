@@ -140,6 +140,44 @@ The main watch status button provides:
 - **Instant Updates**: Immediate status changes with loading feedback
 - **Smart Labeling**: Button text changes based on current status ("Mark as Watched" or "Mark Unwatched")
 
+### Recommend Button
+
+![Movies Recommend Button Screenshot](../images/movies/movies_recommend.png)
+![Movies Recommend Button Dialog Screenshot](../images/movies/movies_recommend_dialog.png)
+
+Next to the Watch Status button, a **Recommend** button lets you share the movie with the KeepWatching community:
+
+1. Click **Recommend**
+2. Optionally write a personal message about why you recommend it
+3. Optionally include your star rating
+4. Click **Submit**
+
+Your recommendation appears in the **Community** tab on the Home page for other users to discover.
+
+### Watch Again (Rewatch)
+
+![Movies Movie Details Watch Again Button Screenshot](../images/movies/movies_watchagain.png)
+
+Once a movie is marked as **Watched**, a **Watch Again** button appears in the header. Clicking it:
+
+1. Shows a confirmation dialog
+2. Resets the movie's watch status so you can track a fresh viewing
+3. Records the rewatch in your [Watch History](watchHistory.md) with a watch count greater than 1
+
+## Ratings
+
+### Your Rating & Notes
+
+![Movies Movie Details Ratings Accordion Screenshot](../images/movies/movies_ratings.png)
+
+Below the main movie details and above the tabs, a collapsible **Your Rating & Notes** section lets you leave a personal review:
+
+- **Star Rating**: Rate the movie 1–5 stars
+- **Notes**: Add optional private notes visible only to you
+- **Save / Delete**: Save your rating or remove it entirely
+
+Ratings are per profile, so different family members can each have independent ratings for the same movie.
+
 ## Movie Details Tabs
 
 The Movie Details page includes tabbed navigation for different aspects of the movie:
@@ -151,7 +189,7 @@ The Movie Details page includes tabbed navigation for different aspects of the m
 The Cast tab displays the actors who appear in the movie:
 - **Cast List**: All credited actors for the movie
 - **Character Information**: Character names played by each actor
-- **Profile Photos**: Actor headshots when available
+- **Profile Photos**: Actor head shots when available
 - **Clickable Cards**: Click any cast member to view their [Person Details](personDetails.md) page
 - **Additional Credits**: Explore what other shows and movies each actor has appeared in
 

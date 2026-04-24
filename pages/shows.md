@@ -99,12 +99,51 @@ The top section displays:
 - **Genres**: Tagged genre categories
 - **Network and Streaming**: Broadcasting and streaming information
 - **Watch Status Control**: Master control for entire show status
+- **Recommend Button**: Share this show with the KeepWatching community (see [Ratings & Recommendations](#ratings--recommendations) below)
+- **Start Rewatch Button**: Appears once the show is Watched or Up to Date; starts a new tracked viewing pass (see [Rewatch](#rewatch) below)
 
 ### Navigation
 
 #### Breadcrumb Navigation
 - Use the **back arrow** in the top-left to return to your previous page
 - The system remembers your filters and returns you to the exact same view
+
+### Ratings & Recommendations
+
+#### Your Rating & Notes
+
+![Shows Show Details Ratings Accordion Screenshot](../images/shows/shows_show_details_ratings.png)
+
+Below the main show information, a collapsible **Your Rating & Notes** section lets you record your personal review:
+
+- **Star Rating**: Rate the show 1–5 stars
+- **Notes**: Add optional private notes visible only to you
+- **Save / Delete**: Save your rating or remove it entirely
+
+Your rating is stored per profile, so different family members can each have their own rating for the same show.
+
+#### Recommending to the Community
+
+![Shows Show Details Recommend Dialog Screenshot](../images/shows/shows_recommend_dialog.png)
+
+The **Recommend** button (next to the Watch Status control) lets you share the show with other KeepWatching users:
+
+1. Click **Recommend**
+2. Optionally add a personal message explaining why you recommend it
+3. Optionally include your star rating with the recommendation
+4. Click **Submit**
+
+Your recommendation appears in the **Community** tab on the Home page for all users to discover.
+
+### Rewatch
+
+Once a show is fully **Watched** or **Up to Date**, a **Start Rewatch** button appears in the show header. Clicking it:
+
+1. Displays a confirmation dialog
+2. Resets the show's episodes so you can track progress through a second (or third!) viewing
+3. Records the rewatch in your [Watch History](watchHistory.md) with a watch count greater than 1
+
+Individual seasons also have a rewatch option, and individual episodes can be marked as rewatched directly from the episode list.
 
 ## Episode Management
 
@@ -169,6 +208,41 @@ Discover new content with:
 - **Recommended Shows**: Shows suggested based on your viewing history
 - **Similar Shows**: Shows with similar themes, genres, or characteristics
 - **Quick Add**: Add recommended shows directly to your favorites
+
+## Prior Watch & Watch History Features
+
+Several features help you accurately record shows you watched before joining KeepWatching and keep your history clean.
+
+### Prior Watch Prompt
+
+![Shows Show Details Prior Watch Screenshot](../images/shows/shows_show_details_prior_watch.png)
+
+The first time you open a show that has fully aired seasons you have never marked, a **Prior Watch Prompt** dialog appears asking:
+
+- **Starting fresh** — you haven't watched this show before, so no history is recorded
+- **Watched everything** — all aired seasons are marked as prior watches using their original air dates
+- **Watched through a specific season** — seasons up to your chosen season are marked as prior watches
+
+This prompt only appears once per show per profile.
+
+### Season Prior Watch Dialog
+
+When you mark an entire season as watched for the first time, a dialog asks whether you watched it when it originally aired or more recently. Choosing "when it aired" records the episodes using their original air dates, keeping your history accurate.
+
+### Skipped Episode & Season Prompts
+
+If you mark an episode as watched but earlier episodes in the same season haven't been marked, a prompt asks whether to mark the skipped episodes as prior watches. The same logic applies when you mark a season as watched but earlier seasons are still unwatched. These prompts prevent accidental gaps in your history.
+
+### Bulk Mark Detection Banner
+
+![Movies Movie Details Ratings Accordion Screenshot](../images/shows/shows_show_details_fix_watch_dates.png)
+
+If KeepWatching detects that many episodes from a show were all marked on the same day — a common pattern when manually importing a full watch history — a **banner** appears at the top of the Show Details page. The banner offers two options:
+
+- **Fix dates** — retroactively update the watch dates for all those episodes to use their original air dates
+- **Dismiss** — keep the current dates as-is
+
+You can also review and fix bulk-marked shows from the **Manage Account** page. See [Manage Account](manageAccount.md) for details.
 
 ## Advanced Features
 

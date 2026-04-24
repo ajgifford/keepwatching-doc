@@ -48,6 +48,7 @@ Your account information is displayed next to your profile picture:
 The account name section also includes action buttons for:
 - **Edit** (pencil icon) - Edit your account name
 - **Statistics** (chart icon) - View account-wide statistics
+- **Review Watch History** (history icon) - Review and fix bulk-imported watch history
 - **Preferences** (gear icon) - Configure application preferences
 - **Delete Account** (trash icon) - Permanently delete your account
 
@@ -84,6 +85,29 @@ Click the preferences icon (gear) next to your account name to configure applica
 The preferences dialog allows you to customize your viewing experience across all devices. Changes are saved when you click the "Save" button.
 
 **Note**: Email preferences require a verified email address to enable.
+
+## Review Watch History
+
+Click the **Review Watch History** icon (history/clock icon) next to your account name to open the watch history review tool. This feature helps you identify and fix shows where all episodes were marked as watched on the same day — a common pattern when manually recording a large backlog at once.
+
+![Manage Account Screenshot Preferences](../images/manageAccount/manage_account_profile_review_history_thomas.png)
+
+### What It Shows
+
+The review panel lists shows where many episodes share the same watch date. For each show it displays:
+
+- Show poster and title
+- The number of episodes that share the same watch date
+- The date on which they were all marked
+
+### Actions
+
+For each show you have two options:
+
+- **Fix dates** — retroactively updates the watch dates for all those episodes to use their original air dates, so your history accurately reflects when each episode actually aired
+- **Dismiss** — marks the show as reviewed and removes it from the list without changing any dates (useful if you genuinely watched everything in one sitting)
+
+You can also fix bulk-marked shows directly from the Show Details page, where a banner appears automatically if a bulk-mark pattern is detected.
 
 ## Account Statistics
 Click the statistics icon next to your account name to view comprehensive account-wide analytics.
