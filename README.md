@@ -11,6 +11,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Watch Status**: Track shows as "Not Watched", "Watching", "Up to Date", or "Watched"
 - **Episode Progress**: See exactly which episodes you've watched and which are next
 - **Rewatch Support**: Start a rewatch of any completed show, season, or movie and track it separately
+- **Watchlist**: Build a prioritized queue of what to watch next, with a decision wizard to help you pick something when you can't decide
 
 ### 👨‍👩‍👧‍👦 Multi-Profile Support
 - **Family Profiles**: Create separate profiles for each family member
@@ -44,6 +45,8 @@ A modern React-based web application for tracking your favorite TV shows and mov
 
 ### 🎯 Smart Features
 - **Keep Watching**: Quick access to your next episodes to watch
+- **Catch-Up Mode**: See episodes and estimated runtime remaining for a show, plus a projected "caught up by" date based on your recent watch pace
+- **Season Skipping**: Mark a season as Skipped to bypass it without counting it as watched or leaving a gap in your progress
 - **Upcoming Episodes**: See when new episodes of your shows are airing
 - **Recent Releases**: Stay up to date with newly released content
 - **Firebase Authentication**: Secure login with email/password or Google
@@ -90,7 +93,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 ### Prior Watch & Rewatch
 - Prior Watch Prompt when opening a show you've never marked — record episodes watched before joining with original air dates
 - Season-level prior watch dialog when marking a full season watched for the first time
-- Skipped episode/season prompts to help keep your history accurate when you mark content out of order
+- Out-of-order watch prompts, including the option to mark earlier seasons as Skipped, to help keep your history accurate when you mark content out of order
 - Bulk-mark detection banner warns when many episodes were marked on the same day and offers to fix dates using original air dates
 - Rewatch buttons on completed shows, seasons, and movies to start a new tracked viewing pass
 
@@ -143,7 +146,7 @@ Secure user authentication system allowing account creation with email/password 
 Personalized dashboard displaying your current profile's viewing progress, upcoming episodes, recent releases, and quick access to continue watching shows. Provides an at-a-glance overview of your entertainment status with clickable statistics cards.
 
 ### [Shows](./pages/shows.md)
-Complete TV show management interface where you can view all your favorited shows, filter by genre/streaming service/watch status, and track episode-by-episode progress. Includes bulk actions for marking entire seasons or shows as watched.
+Complete TV show management interface where you can view all your favorited shows, filter by genre/streaming service/watch status, and track episode-by-episode progress. Includes bulk actions for marking entire seasons or shows as watched, a Catch-Up Mode summary for shows with a backlog, and the ability to skip seasons you don't plan to watch.
 
 ### [Movies](./pages/movies.md)
 Movie collection manager for browsing your favorited films, filtering by various criteria, and updating watch status from "Not Watched" to "Watched". Features detailed movie information including runtime, ratings, and streaming availability.
@@ -168,3 +171,6 @@ Visual content calendar showing upcoming and recently aired episodes and movies.
 
 ### [Watch History](./pages/watchHistory.md)
 Complete paginated record of every episode and movie you have watched, including rewatches and prior-watch entries. Filter by content type, date range, prior watch status, and title search. Also provides tools to start rewatches of completed shows, seasons, and movies.
+
+### [Watchlist](./pages/watchlist.md)
+Prioritized queue of shows and movies you plan to watch next. Add items from show and movie detail pages, reorder them by priority, and filter by type. Includes a decision wizard that filters your queue by content type, genre, and available time to suggest up to three picks when you can't decide what to watch.

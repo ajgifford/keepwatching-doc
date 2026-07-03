@@ -145,6 +145,16 @@ Once a show is fully **Watched** or **Up to Date**, a **Start Rewatch** button a
 
 Individual seasons also have a rewatch option, and individual episodes can be marked as rewatched directly from the episode list.
 
+### Catch-Up Mode
+
+Once a show has a real backlog — three or more aired episodes you haven't watched yet — a **Catch-Up Mode** card appears on the Show Details page summarizing what's left:
+
+- **Episodes & Runtime Remaining**: Total count of aired, unwatched episodes and an estimated total runtime (e.g. "12 episodes left • ~11 hours, 7 minutes")
+- **Pace Estimate**: Based on episodes you've watched in the last 60 days, an estimate of your weekly watch pace and a projected date you'll be caught up (e.g. "At your recent pace (2.0 eps/week), caught up by 2026-08-01"). If you haven't watched enough recently to estimate a pace, a message lets you know instead
+- **Season Breakdown**: An expandable **Season breakdown** section lists episodes and runtime remaining for each individual season
+
+Catch-Up Mode only appears once there's a meaningful backlog — with one or two episodes left, the [Keep Watching Tab](#keep-watching-tab) and Next Episode panel already show you what's next. The card disappears automatically once you're caught up, and episodes in [Skipped](#season-skipping) seasons aren't counted toward your remaining total. If runtime data is missing for some episodes, the total is labeled "(estimate incomplete)".
+
 ## Episode Management
 
 The Show Details page includes tabbed navigation for different aspects of show management:
@@ -169,6 +179,7 @@ This comprehensive view includes:
 - **Season Accordions**: Each season is displayed in an expandable section
 - **Season Overview**: Poster, episode count, air date information
 - **Season Watch Status**: Control for marking entire seasons as watched/unwatched
+- **Skip Season**: A dedicated skip icon lets you mark an unwatched, aired season as **Skipped** instead — see [Season Skipping](#season-skipping) below
 - **Visual Indicators**: Clear watch status icons for quick identification
 
 #### Episode Management
@@ -229,9 +240,26 @@ This prompt only appears once per show per profile.
 
 When you mark an entire season as watched for the first time, a dialog asks whether you watched it when it originally aired or more recently. Choosing "when it aired" records the episodes using their original air dates, keeping your history accurate.
 
-### Skipped Episode & Season Prompts
+### Out-of-Order Watch Prompts
 
-If you mark an episode as watched but earlier episodes in the same season haven't been marked, a prompt asks whether to mark the skipped episodes as prior watches. The same logic applies when you mark a season as watched but earlier seasons are still unwatched. These prompts prevent accidental gaps in your history.
+If you mark an episode as watched but earlier episodes in the same season haven't been marked, a prompt asks whether to mark the skipped episodes as prior watches. The same logic applies when you mark a season as watched but earlier seasons are still unwatched — in that case you get three choices:
+
+- **Mark as previously watched** — records the earlier seasons as prior watches using their original air dates
+- **Mark as skipped** — marks the earlier seasons as **Skipped** instead of watched (see [Season Skipping](#season-skipping) below)
+- **No, just \[this season\]** — leaves the earlier seasons untouched and only updates the season you selected
+
+These prompts prevent accidental gaps in your history.
+
+### Season Skipping
+
+Not every season is one you plan to watch — clip shows, holiday specials, or a bonus season you're not interested in can be marked **Skipped** instead of Watched or Not Watched.
+
+- **Skip Season button**: On the **Seasons & Episodes** tab, an aired season that hasn't been watched or skipped yet shows a skip icon next to its watch status control. Click it to mark the season as **Skipped** immediately, no confirmation needed
+- **Skipped status**: Skipped seasons display a distinct "Skipped" badge and icon, count toward the show being complete (so the show can still reach Watched/Up to Date even with skipped seasons), and are excluded from the remaining-episode count in [Catch-Up Mode](#catch-up-mode)
+- **Episodes are untouched**: Skipping a season only changes the season's own status — the episodes underneath keep whatever status they already had
+- **Undoing a skip**: Click the watch status icon on a skipped season again to revert it back to Not Watched
+
+Season Skipping applies at the season level only; there's no equivalent "skip" action for individual episodes.
 
 ### Bulk Mark Detection Banner
 
