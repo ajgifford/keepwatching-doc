@@ -47,7 +47,7 @@ Each row displays:
 
 - **Poster thumbnail** — 64×96 image
 - **Title** — links directly to the show or movie detail page
-- **New Season badge** — shown on Up to Date shows that have a new season available
+- **Watch status chip** — shown when the item's current watch status is not Not Watched (e.g. "Watching", "Watched")
 - **Genre chips** — up to four genre tags
 - **Streaming service(s)** — where the content is available
 - **Runtime** — total runtime for movies (e.g., "1h 42m"); average episode runtime for shows (e.g., "~45 min/ep")
@@ -80,7 +80,6 @@ This tab shows all of your favorited content that you have not started yet, filt
 The pool includes:
 
 - Shows with a watch status of **Not Watched**
-- Shows with a watch status of **Up to Date** that have a **next episode** available (new season)
 - Movies with a watch status of **Not Watched**
 
 Items already in **My Watchlist** are excluded. The pool is sorted alphabetically by title.
@@ -99,7 +98,6 @@ Each row displays:
 
 - **Poster thumbnail** — 64×96 image
 - **Title** — links directly to the content detail page
-- **New Season badge** — shown on Up to Date shows with a new season
 - **Content type chip** — Show or Movie
 - **Genre chips** — up to four genre tags
 - **Streaming service(s)**
@@ -128,7 +126,7 @@ There are two ways to add an item to **My Watchlist**:
 1. **From the Unwatched tab** — click the "+" button on any pool item
 2. **From a show or movie detail page** — click the **Add to Watchlist** button in the hero card actions
 
-On detail pages the button toggles: it shows **Add to Watchlist** when the item is not yet queued and **Remove from Watchlist** when it is.
+On detail pages the button toggles: it shows **Add to Watchlist** when the item is not yet queued and **Remove from Watchlist** when it is. The button only appears while the show or movie's watch status is **Not Watched** (or once it's already queued) — it disappears once you start watching.
 
 ---
 
@@ -206,7 +204,6 @@ The **Home** page includes an **Up Next** tab (between Keep Watching and TV Show
 - Each entry displays:
   - Poster thumbnail
   - Title (links to the detail page; navigating back returns you to the Watchlist)
-  - **New Season** badge when applicable
   - Content type chip (Show or Movie)
   - Genre chips (up to three)
   - Runtime
@@ -230,7 +227,6 @@ with a **Go to Watchlist** button.
 
 - **Use the Unwatched tab to discover and queue**: browse your full pool of not-started content and add the most interesting items to your queue in one session.
 - **Keep your queue focused**: a shorter, intentional queue makes the Up Next tab on the Home page more useful.
-- **Check the New Season badge**: Up to Date shows with a new season are surfaced automatically — they disappear from the pool once you start watching.
 - **Use the wizard when undecided**: it works on the full Unwatched pool, not just your queue, so it is useful even before you have built a queue.
 - **Reorder by priority**: put your most anticipated content at the top so it appears first in Up Next.
 
@@ -243,8 +239,8 @@ with a **Go to Watchlist** button.
 - Try refreshing; the add action updates Redux state immediately but confirm the item appears.
 
 **The Unwatched pool is empty:**
-- Content must have a watch status of Not Watched (or Up to Date with a new season for shows) to appear.
-- Watching, Up to Date (no new season), and Watched content is not included.
+- Content must have a watch status of Not Watched to appear.
+- Watching, Up to Date, and Watched content is not included.
 - Browse the Shows or Movies pages to add more favorites.
 
 **An item I added to My Watchlist is still showing in Unwatched:**
