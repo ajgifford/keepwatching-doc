@@ -32,6 +32,24 @@ Four summary cards provide instant insights into your viewing habits:
 
 During the first 5 days of any month, or throughout December, a banner may appear below the profile header inviting you to view your latest [Recap](recap.md) — a shareable, poster-style summary of your viewing for the month or year. The banner only shows up when you actually have watch activity for that period.
 
+### Rate Your Library
+
+![Rate Your Library Button Screenshot](../images/home/home_rate_your_library_button.png)
+
+A **Rate Your Library (N)** button appears above the tabs whenever you have watched content that doesn't have a rating yet — shows marked **Watched** or **Up to Date**, and movies marked **Watched**, that you haven't rated. The number in the button is the count of unrated items. If everything you've watched is already rated, the button doesn't appear at all.
+
+Click it to open the **Rate Your Library** dialog, which steps through your unrated items one at a time:
+
+![Rate Your Library Dialog Screenshot](../images/home/home_rate_your_library_dialog.png)
+
+- **Poster and title** of the current item, with the same star-rating and notes controls used on show and movie detail pages
+- **Position counter** ("X of N") showing your progress through the batch
+- **Navigation controls**: First, Back, Next, and Last buttons to move through the queue in any order
+- **Star ratings save immediately** when you click a star — there's no separate Save step for the rating itself
+- **Notes require Save**: if you type a note and try to navigate away without saving it, a **Discard unsaved note?** confirmation appears first
+- When you reach the last item, you'll see a success message if every item in the batch is now rated, or a reminder of how many are still unrated
+- If you have nothing left to rate (including when you open the dialog with an already-empty queue), it shows "Nothing to rate! Your watched library is already fully rated."
+
 ## Navigation Tabs
 
 The dashboard is organized into seven main tabs, each serving a specific purpose:
