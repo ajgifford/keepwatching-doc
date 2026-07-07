@@ -223,6 +223,11 @@ Click "View Stats" to see detailed analytics for that specific profile:
 ![Manage Account Screenshot Profile Stats Joan](../images/manageAccount/manage_account_profile_stats_joan.png)
 ![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
 
+#### View Recap
+Click "View Recap" to open that profile's shareable [Recap](recap.md) — a poster-style monthly and yearly summary of viewing activity including hours watched, an activity heatmap, top genres, most-watched show, and longest streak. Unlike the Home page banner, this is available anytime for any period the profile has activity for.
+
+![Manage Account Screenshot View Recap](../images/manageAccount/manage_account_view_recap.png)
+
 #### Edit Profile
 1. Click "Edit" on a profile card
 2. Enter the new name in the dialog box

@@ -28,9 +28,13 @@ Four summary cards provide instant insights into your viewing habits:
 
 ![Home Page Profile Card Screenshot](../images/home/home_profile_card.png)
 
+### Recap Banner
+
+During the first 5 days of any month, or throughout December, a banner may appear below the profile header inviting you to view your latest [Recap](recap.md) — a shareable, poster-style summary of your viewing for the month or year. The banner only shows up when you actually have watch activity for that period.
+
 ## Navigation Tabs
 
-The dashboard is organized into six main tabs, each serving a specific purpose:
+The dashboard is organized into seven main tabs, each serving a specific purpose:
 
 ### 1. Keep Watching Tab
 ![Home Page Keep Watching Tab Screenshot](../images/home/home_keepwatching.png)
@@ -58,7 +62,24 @@ This tab is your starting point for continuing your viewing journey. It displays
 - Prioritizes shows you're actively watching
 - Balances content across different shows to avoid overwhelming you with episodes from a single series
 
-### 2. TV Shows Tab
+### 2. Up Next Tab
+
+![Watchlist Up Next Tab Screenshot](../images/watchlist/home_up_next.png)
+
+This tab shows a quick preview of your personal [Watchlist](watchlist.md) queue without leaving the dashboard.
+
+#### What You'll See:
+- The top **5 items** from your **My Watchlist** queue, in priority order
+- Each entry displays poster thumbnail, title, content type chip (Show or Movie), genre chips, and runtime
+- If your queue has more than 5 items, a caption shows how many are not displayed (e.g., "Showing 5 of 12 items")
+- A **View full watchlist** link button always appears at the bottom right
+
+#### Empty State:
+If your queue is empty, the tab shows "Your watchlist is empty." with a **Go to Watchlist** button.
+
+See the full [Watchlist](watchlist.md) guide for details on building and reordering your queue, and the decision wizard for when you can't decide what to watch.
+
+### 3. TV Shows Tab
 ![Home Page TV Shows Tab Screenshot](../images/home/home_tv_shows.png)
 
 This tab focuses entirely on your television content and provides:
@@ -83,7 +104,7 @@ A **View Calendar** button at the top of the tab links directly to the full [Cal
 - Episode tiles link directly to show detail pages
 - Section headers provide quick navigation to your shows page
 
-### 3. Movies Tab
+### 4. Movies Tab
 ![Home Page Movies Tab Screenshot](../images/home/home_movies.png)
 
 Your movie management center includes:
@@ -110,7 +131,7 @@ A **View Calendar** button at the top of the tab links directly to the full [Cal
 - Movie tiles link directly to movie detail pages
 - Section headers provide quick navigation to your movies page
 
-### 4. By Service Tab
+### 5. By Service Tab
 ![Home Page By Service Tab Screenshot](../images/home/home_services.png)
 
 This tab organizes all your content by streaming platform, making it easy to browse what's available on each service:
@@ -153,7 +174,7 @@ Each streaming service has its own section containing:
 - Real-time updates when content is added or removed
 - Helps optimize streaming subscriptions based on your actual content
 
-### 5. Community Tab
+### 6. Community Tab
 
 ![Home Page Community Tab Screenshot](../images/home/home_community.png)
 
@@ -167,7 +188,7 @@ The Community tab surfaces content that other KeepWatching users have recommende
 #### How It Works:
 Users recommend content from the Show Details or Movie Details page using the **Recommend** button. Those recommendations appear here for all community members to discover.
 
-### 6. Statistics Tab
+### 7. Statistics Tab
 ![Home Page Stats Tab Screenshot](../images/home/home_stats.png)
 
 A comprehensive analytics dashboard powered by advanced statistics and insights:

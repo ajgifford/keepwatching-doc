@@ -42,6 +42,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Progress Charts**: Visual representation of your viewing progress
 - **Genre Analysis**: See your favorite genres and viewing patterns
 - **Account Overview**: Account-wide statistics across all profiles
+- **Recap**: Shareable, Spotify-Wrapped-style monthly and yearly recap cards with viewing hours, top genres, an activity heatmap, and streaks — surfaced automatically on Home or browsed anytime from Manage Account
 
 ### 🎯 Smart Features
 - **Keep Watching**: Quick access to your next episodes to watch
@@ -174,3 +175,6 @@ Complete paginated record of every episode and movie you have watched, including
 
 ### [Watchlist](./pages/watchlist.md)
 Prioritized queue of shows and movies you plan to watch next. Add items from show and movie detail pages, reorder them by priority, and filter by type. Includes a decision wizard that filters your queue by content type, genre, and available time to suggest up to three picks when you can't decide what to watch.
+
+### [Recap](./pages/recap.md)
+Shareable, poster-style monthly and yearly viewing recaps, in the spirit of Spotify Wrapped. Surfaces automatically on the Home page when a new recap is ready, or browse any past period on demand from Manage Account. Each card shows hours watched, an activity heatmap, top genres, your most-watched show, and your longest streak, with cards themed to your profile's accent color.
