@@ -137,6 +137,8 @@ Your recommendation appears in the **Community** tab on the Home page for all us
 
 ### Rewatch
 
+![Show Details Rewatch Button Screenshot](../images/shows/shows_show_details_rewatch.png)
+
 Once a show is fully **Watched** or **Up to Date**, a **Start Rewatch** button appears in the show header. Clicking it:
 
 1. Displays a confirmation dialog
@@ -147,13 +149,27 @@ Individual seasons also have a rewatch option, and individual episodes can be ma
 
 ### Catch-Up Mode
 
-Once a show has a real backlog — three or more aired episodes you haven't watched yet — a **Catch-Up Mode** card appears on the Show Details page summarizing what's left:
+![Show Details Catch-Up Mode Card Screenshot](../images/shows/shows_show_details_catchup.png)
+
+Once a show has a real backlog — three or more aired episodes you haven't watched yet — a **Catch-Up Mode** card appears below the main show information (and above the [Your Rating & Notes](#your-rating--notes) section) summarizing what's left:
 
 - **Episodes & Runtime Remaining**: Total count of aired, unwatched episodes and an estimated total runtime (e.g. "12 episodes left • ~11 hours, 7 minutes")
-- **Pace Estimate**: Based on episodes you've watched in the last 60 days, an estimate of your weekly watch pace and a projected date you'll be caught up (e.g. "At your recent pace (2.0 eps/week), caught up by 2026-08-01"). If you haven't watched enough recently to estimate a pace, a message lets you know instead
-- **Season Breakdown**: An expandable **Season breakdown** section lists episodes and runtime remaining for each individual season
+- **Pace Estimate**: An estimate of your weekly watch pace and a projected date you'll be caught up (e.g. "At your recent pace (2.0 eps/week), caught up by 2026-08-01"), based on episodes you've watched in the last 60 days. Prior-watch entries don't count toward this — only episodes you've actually marked watched recently. If you haven't watched at least two qualifying episodes spanning two or more days in that window, a message lets you know there isn't enough recent activity to estimate a pace
+- **Season Breakdown**: An expandable **Season breakdown** section lists episodes and runtime remaining for each season that still has unwatched episodes (seasons you're fully caught up on are omitted)
+- **Mark Caught Up**: A button that lets you bulk-clear the entire remaining backlog in one step
 
-Catch-Up Mode only appears once there's a meaningful backlog — with one or two episodes left, the [Keep Watching Tab](#keep-watching-tab) and Next Episode panel already show you what's next. The card disappears automatically once you're caught up, and episodes in [Skipped](#season-skipping) seasons aren't counted toward your remaining total. If runtime data is missing for some episodes, the total is labeled "(estimate incomplete)".
+Catch-Up Mode only appears once there's a meaningful backlog — with one or two episodes left, the [Keep Watching Tab](#keep-watching-tab) and Next Episode panel already show you what's next. The card disappears automatically once you're caught up, and episodes in [Skipped](#season-skipping) seasons aren't counted toward your remaining total or included when you mark caught up. If runtime data is missing for some episodes, the total (and that season's breakdown row) is labeled "(estimate incomplete)".
+
+#### Mark Caught Up
+
+![Show Details Mark Caught Up Dialog Screenshot](../images/shows/shows_show_details_catchup_mark_dialog.png)
+
+Click **Mark Caught Up** to skip straight to current without marking each episode one by one:
+
+1. A confirmation dialog summarizes what will happen (e.g. "Mark 12 remaining episodes across 3 seasons as previously watched? This uses each episode's air date, so it won't skew your stats.")
+2. Click **Mark Caught Up** in the dialog to confirm, or **Cancel** to back out
+3. All remaining episodes in every season with a backlog are marked watched, using each episode's original air date rather than today's date — the same prior-watch mechanism used elsewhere, so it won't distort your [Watch History](watchHistory.md), streaks, or pace statistics
+4. The button is disabled while the update is in progress; once complete, the Catch-Up Mode card disappears since the show is now current
 
 ## Episode Management
 
@@ -238,9 +254,13 @@ This prompt only appears once per show per profile.
 
 ### Season Prior Watch Dialog
 
+![Season Prior Watch Dialog Screenshot](../images/shows/shows_show_details_season_prior_watch_dialog.png)
+
 When you mark an entire season as watched for the first time, a dialog asks whether you watched it when it originally aired or more recently. Choosing "when it aired" records the episodes using their original air dates, keeping your history accurate.
 
 ### Out-of-Order Watch Prompts
+
+![Out-of-Order Watch Prompt Screenshot](../images/shows/shows_show_details_out_of_order_prompt.png)
 
 If you mark an episode as watched but earlier episodes in the same season haven't been marked, a prompt asks whether to mark the skipped episodes as prior watches. The same logic applies when you mark a season as watched but earlier seasons are still unwatched — in that case you get three choices:
 
@@ -251,6 +271,8 @@ If you mark an episode as watched but earlier episodes in the same season haven'
 These prompts prevent accidental gaps in your history.
 
 ### Season Skipping
+
+![Season Skipping Screenshot](../images/shows/shows_show_details_skip_season.png)
 
 Not every season is one you plan to watch — clip shows, holiday specials, or a bonus season you're not interested in can be marked **Skipped** instead of Watched or Not Watched.
 
