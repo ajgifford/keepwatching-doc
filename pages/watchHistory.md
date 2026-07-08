@@ -31,6 +31,7 @@ A toolbar at the top of the page provides several ways to narrow your history.
 ### Content Type
 
 Toggle between:
+
 - **All** — episodes and movies together
 - **Episodes** — TV episodes only
 - **Movies** — movies only
@@ -42,6 +43,7 @@ Use the **From** and **To** date pickers to restrict results to a specific date 
 ### Prior Watch Filter
 
 Three options control how prior-watch entries are shown:
+
 - **All** — include all watch events regardless of prior watch status
 - **Prior only** — show only prior-watch entries (content watched before joining)
 - **Exclude prior** — hide prior-watch entries and show only recent watches

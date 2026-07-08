@@ -45,12 +45,12 @@ The registration form requires three pieces of information:
 - **Name** (minimum 3 characters)
   - This will be your display name throughout the app
   - Used for initial profile creation and personalization
-  
+
 - **Email Address**
   - Must be a valid email format
   - Used for login and account communications
   - Cannot be changed after registration
-  
+
 - **Password** (minimum 8 characters)
   - Should be strong and unique
   - Used for secure login authentication
@@ -119,11 +119,13 @@ For quick and secure access using your Google account:
 #### Google Sign-In Process
 
 For **new users**:
+
 - Account is automatically created using Google profile information
 - Email verification is handled by Google
 - Default profile is set up immediately
 
 For **existing users**:
+
 - Instant authentication using Google credentials
 - Access to your existing shows, movies, and profiles
 
@@ -134,6 +136,7 @@ Email verification enhances account security and enables important communication
 ### Automatic Verification Email
 
 When you register with email/password:
+
 1. Verification email is sent immediately to your registered address
 2. Check your inbox (and spam folder) for the verification email
 3. Click the verification link in the email
@@ -153,6 +156,7 @@ If you haven't received the verification email or need to resend it:
 ### Verification Status
 
 Your verification status is displayed in the account management section:
+
 - **"(Email Verified)"** - Your email has been successfully verified
 - **"(Verify Email)"** - Click to send verification email
 
@@ -222,12 +226,14 @@ Securely ending your KeepWatching session:
 ### Automatic Logout
 
 Sessions may automatically expire:
+
 - **Token expiration**: Authentication tokens have limited lifetime
 - **Inactivity timeout**: Extended periods of inactivity
 
 ### Post-Logout Behavior
 
 After logging out:
+
 - **Local storage cleared**: No personal data remains on device
 - **Session invalidated**: Cannot access protected content
 - **Landing page redirect**: Returned to public welcome page
@@ -240,11 +246,13 @@ Common authentication issues and their solutions.
 ### Login Problems
 
 **"Invalid credentials" Error**
+
 - Verify email address is correct
 - Check password (remember it's case-sensitive)
 - Ensure email is verified
 
 **Google Sign-In Issues**
+
 - Check popup blockers in your browser
 - Ensure third-party cookies are enabled
 - Try clearing browser cache and cookies
@@ -253,12 +261,14 @@ Common authentication issues and their solutions.
 ### Registration Issues
 
 **"Email already in use" Error**
+
 - Account with this email already exists
 - Try logging in instead of registering
 - Use the Google Sign-In option if you registered with Google
 - Contact support if you believe this is an error
 
 **Verification Email Not Received**
+
 - Check spam/junk folder
 - Verify email address was entered correctly
 - Wait a few minutes for email delivery
@@ -267,11 +277,13 @@ Common authentication issues and their solutions.
 ### Account Access Problems
 
 **Forgotten Password**
+
 - Currently, password reset must be handled by support
 - Contact support for assistance with password recovery
 - Consider using Google Sign-In for easier access
 
 **Account Locked or Disabled**
+
 - May occur after multiple failed login attempts
 - Wait 15-30 minutes before trying again
 - Contact support if problem persists
@@ -279,12 +291,14 @@ Common authentication issues and their solutions.
 ### Browser-Related Issues
 
 **Session Not Persisting**
+
 - Check browser settings for third-party cookies
 - Ensure JavaScript is enabled
 - Try disabling browser extensions temporarily
 - Clear browser cache and try again
 
 **Page Loading Issues**
+
 - Verify internet connection stability
 - Try refreshing the page
 - Disable ad blockers temporarily

@@ -4,6 +4,18 @@
 
 The Watchlist page is your personal queue of shows and movies you intend to watch next. It has two distinct areas: **My Watchlist**, a manually ordered queue you control, and **Unwatched**, a searchable pool of everything in your favorites that you haven't started yet. A quick preview of your queue also appears on the [Home](home.md) page under the **Up Next** tab.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Main Tabs](#main-tabs)
+- [My Watchlist Tab](#my-watchlist-tab)
+- [Unwatched Tab](#unwatched-tab)
+- [Adding Items to Your Queue](#adding-items-to-your-queue)
+- [Help Me Decide Wizard](#help-me-decide-wizard)
+- [Up Next on the Home Page](#up-next-on-the-home-page)
+- [Tips](#tips)
+- [Troubleshooting](#troubleshooting)
+
 ## Overview
 
 ![Watchlist Screenshot](../images/watchlist/watchlist_overview.png)
@@ -12,10 +24,10 @@ The Watchlist page is your personal queue of shows and movies you intend to watc
 
 The page is divided into two top-level tabs:
 
-| Tab | Contents |
-|-----|---------|
-| **My Watchlist** (with count) | Your personal, prioritized queue of items you have explicitly added |
-| **Unwatched** (with count) | Everything in your favorites that is not yet started — minus anything already in your queue |
+| Tab                           | Contents                                                                                    |
+| ----------------------------- | ------------------------------------------------------------------------------------------- |
+| **My Watchlist** (with count) | Your personal, prioritized queue of items you have explicitly added                         |
+| **Unwatched** (with count)    | Everything in your favorites that is not yet started — minus anything already in your queue |
 
 ---
 
@@ -29,17 +41,17 @@ This tab is your ordered queue. Items appear in priority order and you control w
 
 If you have not added anything yet, the tab shows:
 
-> *"Your watchlist is empty. Switch to the Unwatched tab to add items."*
+> _"Your watchlist is empty. Switch to the Unwatched tab to add items."_
 
 ### When Items Are Present
 
 Three content sub-tabs filter the queue:
 
-| Sub-tab | Contents |
-|---------|---------|
-| **All** | Every item (default) |
-| **Shows** | TV shows only |
-| **Movies** | Movies only |
+| Sub-tab    | Contents             |
+| ---------- | -------------------- |
+| **All**    | Every item (default) |
+| **Shows**  | TV shows only        |
+| **Movies** | Movies only          |
 
 ### Queue Item Layout
 
@@ -86,11 +98,11 @@ Items already in **My Watchlist** are excluded. The pool is sorted alphabeticall
 
 ### Content Sub-Tabs
 
-| Sub-tab | Contents |
-|---------|---------|
-| **All** | Every pool item |
-| **Shows** | TV shows only |
-| **Movies** | Movies only |
+| Sub-tab    | Contents        |
+| ---------- | --------------- |
+| **All**    | Every pool item |
+| **Shows**  | TV shows only   |
+| **Movies** | Movies only     |
 
 ### Pool Item Layout
 
@@ -154,21 +166,21 @@ Filter by how much time you have. The options shown depend on your Step 1 select
 
 **Movie lengths:**
 
-| Option | Runtime |
-|--------|---------|
-| Quick | Under 90 minutes |
-| Standard | Up to 120 minutes |
-| Long | Up to 150 minutes |
-| Epic | 150 minutes or more |
+| Option   | Runtime             |
+| -------- | ------------------- |
+| Quick    | Under 90 minutes    |
+| Standard | Up to 120 minutes   |
+| Long     | Up to 150 minutes   |
+| Epic     | 150 minutes or more |
 
 **Episode lengths (per episode):**
 
-| Option | Runtime |
-|--------|---------|
-| Quick | Under 30 minutes |
-| Standard | Up to 50 minutes |
-| Long | Up to 70 minutes |
-| Any length | No filter |
+| Option     | Runtime          |
+| ---------- | ---------------- |
+| Quick      | Under 30 minutes |
+| Standard   | Up to 50 minutes |
+| Long       | Up to 70 minutes |
+| Any length | No filter        |
 
 ### Results
 
@@ -177,6 +189,7 @@ After clicking **Find Something!**, the wizard shows up to three randomly select
 ![Watchlist Wizard Results Screenshot](../images/watchlist/watchlist_wizard_results.png)
 
 Each suggestion card shows:
+
 - Poster thumbnail
 - Title
 - Genre chips (up to three)
@@ -217,7 +230,7 @@ The **Home** page includes an **Up Next** tab (between Keep Watching and TV Show
 
 If your queue is empty, the tab shows:
 
-> *"Your watchlist is empty."*
+> _"Your watchlist is empty."_
 
 with a **Go to Watchlist** button.
 
@@ -235,20 +248,24 @@ with a **Go to Watchlist** button.
 ## Troubleshooting
 
 **My Watchlist is empty even though I just added something from a detail page:**
+
 - Verify you are on the **My Watchlist** tab, not Unwatched.
 - Try refreshing; the add action updates Redux state immediately but confirm the item appears.
 
 **The Unwatched pool is empty:**
+
 - Content must have a watch status of Not Watched to appear.
 - Watching, Up to Date, and Watched content is not included.
 - Browse the Shows or Movies pages to add more favorites.
 
 **An item I added to My Watchlist is still showing in Unwatched:**
+
 - It should not — items are filtered out of the pool once queued. Try refreshing the page.
 
 **Priority changes are not saving:**
+
 - Reordering requires a network connection. Check your connection and try again.
 
 ---
 
-*The Watchlist is designed to help you make the most of your viewing time — whether you know exactly what you want to watch or need a little help deciding.*
+_The Watchlist is designed to help you make the most of your viewing time — whether you know exactly what you want to watch or need a little help deciding._

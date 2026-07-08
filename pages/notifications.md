@@ -4,9 +4,21 @@
 
 The Notifications system keeps you informed about new content, system updates, features, and important announcements. KeepWatching provides two ways to access and manage your notifications: a quick dropdown menu in the navigation bar and a full-page notifications center.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Notification Icon (Quick Access)](#notification-icon-quick-access)
+- [Full Notifications Page](#full-notifications-page)
+- [Notification Types Explained](#notification-types-explained)
+- [Notification Workflow](#notification-workflow)
+- [Troubleshooting](#troubleshooting)
+- [Integration with Other Features](#integration-with-other-features)
+- [Privacy and Data](#privacy-and-data)
+
 ## Overview
 
 KeepWatching's notification system delivers timely updates about:
+
 - **New Episodes**: When shows you're watching have new episodes available
 - **New Movies**: When movies in your watchlist are released
 - **System Updates**: Important system announcements and changes
@@ -16,11 +28,13 @@ KeepWatching's notification system delivers timely updates about:
 ## Notification Icon (Quick Access)
 
 ### Location
+
 The notification icon is always visible in the top navigation bar, next to your profile picture.
 
 ### Visual Indicators
 
 **Notification Icon States:**
+
 - **Bell Icon (inactive)**: No unread notifications
 - **Bell Icon with Badge**: Shows the count of unread notifications
 
@@ -50,16 +64,19 @@ The badge displays the exact number of unread notifications, making it easy to s
 The notification dropdown header includes several quick action buttons:
 
 **Mark All Read/Unread:**
+
 - When you have unread notifications, click "Mark All Read" to mark everything as read
 - When all notifications are read, click "Mark All Unread" to mark them as unread
 - This applies to all notifications in your account
 
 **Dismiss All:**
+
 - Click "Dismiss All" to remove all notifications
 - This permanently removes all notifications from your list
 - Use with caution - dismissed notifications cannot be recovered
 
 **View All:**
+
 - Click "View All" to navigate to the full Notifications page
 - Opens the complete notification center with additional features
 
@@ -68,6 +85,7 @@ The notification dropdown header includes several quick action buttons:
 Each notification in the dropdown shows:
 
 **Visual Elements:**
+
 - **Type Icon**: Colored circular icon indicating notification type:
   - 📺 TV icon (blue) - New episodes or show updates
   - 🎬 Movie icon (purple) - Movie releases or updates
@@ -84,6 +102,7 @@ Each notification in the dropdown shows:
   - Shows date for older notifications
 
 **Status Indicators:**
+
 - **Colored left border**: Unread notifications have a colored border matching the notification type
 - **Bold text**: Unread notification titles appear in bold
 - **Highlighted background**: Unread notifications have a subtle background highlight
@@ -93,12 +112,14 @@ Each notification in the dropdown shows:
 Each notification in the dropdown has two action buttons:
 
 **Mark as Read/Unread:**
+
 - Click the envelope icon to toggle read status
 - ✉️ Open envelope = Mark as read (for unread notifications)
 - 📧 Closed envelope = Mark as unread (for read notifications)
 - Clicking stops the notification from counting toward your unread badge
 
 **Dismiss Notification:**
+
 - Click the X icon to remove the notification
 - This permanently deletes the individual notification
 - Cannot be undone
@@ -106,6 +127,7 @@ Each notification in the dropdown has two action buttons:
 ### Dropdown Limitations
 
 The notification dropdown shows:
+
 - **Maximum of 10 notifications** at a time
 - Most recent notifications appear first
 - If you have more than 10 notifications, you'll see "+X more notifications..." at the bottom
@@ -114,6 +136,7 @@ The notification dropdown shows:
 ### Closing the Dropdown
 
 The dropdown automatically closes when you:
+
 - Click anywhere outside the dropdown
 - Click the notification icon again
 - Navigate to another page
@@ -124,6 +147,7 @@ The dropdown automatically closes when you:
 ### Accessing the Page
 
 Navigate to the full notifications page by:
+
 1. Clicking "View All" in the notification dropdown
 2. Clicking the notification icon and selecting "View All"
 
@@ -148,6 +172,7 @@ The notifications page is organized into three main sections:
 ### Search Functionality
 
 **Search Bar:**
+
 - Located in the filters section at the top of the page
 - Includes a search icon for easy identification
 - Type keywords to filter notifications by message content
@@ -155,6 +180,7 @@ The notifications page is organized into three main sections:
 - Results update automatically as you type
 
 **Search Tips:**
+
 - Search by show or movie names
 - Search by notification type (e.g., "feature", "update")
 - Search by keywords in the message
@@ -189,12 +215,14 @@ Located next to the search bar, the filter dropdown provides quick sorting:
 The notifications page provides three bulk action buttons in the filters section:
 
 **Mark All Read/Unread:**
+
 - When unread notifications exist, shows "Mark All Read" button
 - When all are read, shows "Mark All Unread" button
 - Applies to all notifications (not just filtered/searched results)
 - Affects the entire notification list
 
 **Dismiss All:**
+
 - Removes all notifications permanently
 - Includes a warning color (red) to indicate caution
 - Only enabled when notifications exist
@@ -203,6 +231,7 @@ The notifications page provides three bulk action buttons in the filters section
 ### Notification List Display
 
 **List Organization:**
+
 - Notifications appear in a scrollable list
 - Most recent notifications appear first
 - Each notification is separated by a subtle divider line
@@ -213,6 +242,7 @@ The notifications page provides three bulk action buttons in the filters section
 Each notification card displays comprehensive information:
 
 **Visual Design:**
+
 - **Type Icon**: Large circular icon with gradient background
   - TV shows: Blue gradient
   - Movies: Purple gradient
@@ -226,6 +256,7 @@ Each notification card displays comprehensive information:
   - Unread notifications appear more prominent
 
 **Text Content:**
+
 - **Title**: Bold headline (appears bolder when unread)
 - **"New" Badge**: Small chip appears on unread notifications
 - **Message**: Full notification message text
@@ -254,6 +285,7 @@ Each notification card has two action buttons on the right:
 When no notifications match your filters or search:
 
 **Empty State Display:**
+
 - Large notification bell icon (gray)
 - "No notifications found" headline
 - Helpful message:
@@ -263,6 +295,7 @@ When no notifications match your filters or search:
 ## Notification Types Explained
 
 ### TV Show Notifications
+
 - **Icon**: Blue TV icon
 - **Purpose**: Inform you about new episodes from shows you're tracking
 - **Examples**:
@@ -274,6 +307,7 @@ When no notifications match your filters or search:
 ![Notifications Details TV Show Screenshot](../images/notifications/notifications_details_tvshow.png)
 
 ### Movie Notifications
+
 - **Icon**: Purple movie icon
 - **Purpose**: Alert you when movies in your watchlist are released
 - **Examples**:
@@ -284,6 +318,7 @@ When no notifications match your filters or search:
 ![Notifications Details Movie Screenshot](../images/notifications/notifications_details_movie.png)
 
 ### Issue Notifications
+
 - **Icon**: Orange warning icon
 - **Purpose**: Alert you to problems, outages, or important issues
 - **Examples**:
@@ -295,6 +330,7 @@ When no notifications match your filters or search:
 ![Notifications Details Issue Screenshot](../images/notifications/notifications_details_issue.png)
 
 ### Feature Notifications
+
 - **Icon**: Green sparkle icon
 - **Purpose**: Announce new features and improvements
 - **Examples**:
@@ -306,6 +342,7 @@ When no notifications match your filters or search:
 ![Notifications Details Feature Screenshot](../images/notifications/notifications_details_feature.png)
 
 ### General Notifications
+
 - **Icon**: Blue info icon
 - **Purpose**: Provide general information and announcements
 - **Examples**:
@@ -322,6 +359,7 @@ When no notifications match your filters or search:
 ### Daily Notification Management
 
 **Morning Routine:**
+
 1. Check the notification icon badge for unread count
 2. Click the notification icon to open the dropdown
 3. Quickly scan the most recent notifications
@@ -329,6 +367,7 @@ When no notifications match your filters or search:
 5. Dismiss irrelevant notifications
 
 **Deep Dive:**
+
 1. Click "View All" to access the full notifications page
 2. Use filters to focus on content updates or system notifications
 3. Search for specific shows or keywords
@@ -341,6 +380,7 @@ When no notifications match your filters or search:
 ### Notifications Not Appearing
 
 **If you don't see expected notifications:**
+
 - Check your internet connection
 - Refresh the page
 - Verify notifications aren't being dismissed automatically
@@ -349,6 +389,7 @@ When no notifications match your filters or search:
 ### Notification Actions Not Working
 
 **If buttons don't respond:**
+
 - Ensure you're logged in
 - Check your internet connection
 - Try refreshing the page
@@ -357,6 +398,7 @@ When no notifications match your filters or search:
 ### Badge Count Incorrect
 
 **If the badge count seems wrong:**
+
 - Refresh the page to sync notifications
 - Check the full notifications page for actual count
 - Mark all as read and then refresh
@@ -364,6 +406,7 @@ When no notifications match your filters or search:
 ### Dropdown Not Opening
 
 **If the dropdown doesn't open:**
+
 - Click the notification icon again
 - Refresh the page
 - Ensure no other modals are open
@@ -375,11 +418,13 @@ When no notifications match your filters or search:
 Notifications work seamlessly with other KeepWatching features:
 
 **Profile Activity:**
+
 - Notifications are account-level, not profile-level
 - All profiles see the same notifications
 - Dismiss actions affect all profiles
 
 **Real-Time Updates:**
+
 - Notifications update in real-time via WebSocket
 - New notifications appear without refreshing
 - Badge count updates instantly
@@ -402,4 +447,4 @@ Notifications work seamlessly with other KeepWatching features:
 
 ---
 
-*The notification system keeps you informed and in control. Whether you prefer quick checks with the dropdown or comprehensive management with the full page, you have the tools to stay current with all your content and important updates.*
+_The notification system keeps you informed and in control. Whether you prefer quick checks with the dropdown or comprehensive management with the full page, you have the tools to stay current with all your content and important updates._

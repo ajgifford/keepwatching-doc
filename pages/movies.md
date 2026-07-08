@@ -4,6 +4,18 @@
 
 The Movies feature in KeepWatching allows you to manage your favorite movies, track what you've watched, and discover new films. This guide covers how to use the Movies page and Movie Details page to build and manage your personal movie collection.
 
+## Table of Contents
+
+- [Movies Page Overview](#movies-page-overview)
+- [Filtering and Organization](#filtering-and-organization)
+- [Managing Your Movie Collection](#managing-your-movie-collection)
+- [Movie Details Page](#movie-details-page)
+- [Movie Information](#movie-information)
+- [Ratings](#ratings)
+- [Movie Details Tabs](#movie-details-tabs)
+- [Advanced Movie Management](#advanced-movie-management)
+- [Tips for Effective Movie Management](#tips-for-effective-movie-management)
+
 ## Movies Page Overview
 
 The Movies page serves as your personal movie library, displaying all the films you've added to your watchlist. Unlike TV shows, movies have a simpler tracking system focused on whether you've watched them or plan to watch them.
@@ -11,6 +23,7 @@ The Movies page serves as your personal movie library, displaying all the films 
 ![Movies Screenshot](../images/movies/movies.png)
 
 ### Key Features:
+
 - **Complete Movie Library**: View all your favorited movies in one organized list
 - **Watch Status Tracking**: Simple watched/unwatched status for easy management
 - **Smart Organization**: Movies are automatically sorted by watch status and title
@@ -27,6 +40,7 @@ The Movies page provides targeted filtering options accessible through the **Fil
 ![Movies Filter Screenshot](../images/movies/movies_with_filters.png)
 
 #### Available Filters:
+
 1. **Genre Filter**: Browse movies by genre (Action, Comedy, Drama, Horror, etc.)
 2. **Streaming Service Filter**: Find movies available on specific platforms
 3. **Watch Status Filter**: Organize by viewing status:
@@ -47,6 +61,7 @@ The Movies page provides targeted filtering options accessible through the **Fil
 ### Smart Sorting
 
 Movies are automatically organized in logical order:
+
 1. **Unaired Movies**: Upcoming releases you're anticipating
 2. **Not Watched**: Movies ready to watch in your backlog
 3. **Watched**: Your completed movie collection
@@ -62,6 +77,7 @@ Each movie in your collection shows comprehensive information:
 ![Movies List Item Screenshot](../images/movies/movies_list_item.png)
 
 #### Movie Information Includes:
+
 - **Poster Image**: Visual movie identification
 - **Title and Description**: Movie synopsis and plot summary
 - **Release Information**: Release date and year
@@ -73,12 +89,15 @@ Each movie in your collection shows comprehensive information:
 ### Collection Management
 
 #### Adding Movies
+
 Movies are added to your collection from:
+
 - **Search Page**: Find specific titles and add them to favorites
 - **Discover Page**: Browse trending and recommended movies
 - **Related Content**: Discover movies through recommendations on other movie detail pages
 
 #### Removing Movies
+
 - Click the **star icon** next to any movie to remove it from your favorites
 - Movies are immediately removed from your collection
 - This action cannot be undone, but you can always re-add movies later
@@ -86,11 +105,13 @@ Movies are added to your collection from:
 ![Movies Remove Favorite Screenshot](../images/movies/movies_remove_favorite.png)
 
 #### Watch Status Management
+
 - Click the **watch status icon** to toggle between watched and unwatched
 - Simple binary system: movies are either watched or not watched
 - Status changes are instant and sync across all your devices
 
 ### Collection Statistics
+
 The top toolbar displays the total count of movies matching your current filters, helping you track the size of your collection and filtered results.
 
 ## Movie Details Page
@@ -104,13 +125,16 @@ Clicking on any movie opens the comprehensive Movie Details page, providing in-d
 The Movie Details page features a cinematic layout:
 
 #### Visual Elements
+
 - **Backdrop Image**: Large promotional image creating an immersive header
 - **Movie Poster**: Official poster overlaid on the backdrop
 - **Title Display**: Prominent movie title with year
 - **Watch Status Control**: Large, prominent button for marking watched/unwatched
 
 #### Movie Metadata
+
 Comprehensive details including:
+
 - **Release Information**: Release year
 - **Runtime**: Movie length in hours and minutes format
 - **Rating**: User rating from TMDB (out of 10)
@@ -125,6 +149,7 @@ Comprehensive details including:
 The main information area provides:
 
 #### Details Grid
+
 - **Streaming Services**: Current availability across platforms
 - **Director**: Key creative personnel
 - **Production Companies**: Studios behind the film
@@ -134,7 +159,9 @@ The main information area provides:
 ![Movies Movie Details Info Screenshot](../images/movies/movies_movie_details_more.png)
 
 ### Watch Status Management
+
 The main watch status button provides:
+
 - **Large, Accessible Design**: Easy-to-use primary action
 - **Status Indication**: Clear visual feedback of current watch state
 - **Instant Updates**: Immediate status changes with loading feedback
@@ -187,6 +214,7 @@ The Movie Details page includes tabbed navigation for different aspects of the m
 ![Movies Movie Details Cast Screenshot](../images/movies/movies_movie_details_cast.png)
 
 The Cast tab displays the actors who appear in the movie:
+
 - **Cast List**: All credited actors for the movie
 - **Character Information**: Character names played by each actor
 - **Profile Photos**: Actor head shots when available
@@ -229,12 +257,14 @@ The Movie Details page includes a dedicated tab for content discovery:
 ### Viewing Planning
 
 #### Creating Movie Queues
+
 1. **Filter by "Not Watched"**: See your complete backlog
 2. **Add Genre Filters**: Narrow down by mood or preference
 3. **Check Streaming Availability**: Focus on currently accessible movies
 4. **Bookmark Filtered Views**: Save specific combinations for easy access
 
 #### Tracking Progress
+
 - **Immediate Updates**: Mark movies as watched right after viewing
 - **Historical Record**: Use "Watched" filter to review your movie history
 - **Statistics Tracking**: Monitor your movie consumption through the statistics dashboard
@@ -242,11 +272,13 @@ The Movie Details page includes a dedicated tab for content discovery:
 ### Platform Integration
 
 #### Streaming Service Awareness
+
 - **Current Availability**: See which services currently offer each movie
 - **Platform Planning**: Filter by specific services for subscription optimization
 - **Availability Changes**: Information updates as movies move between platforms
 
 #### Multi-Platform Management
+
 - **Service Comparison**: Compare availability across different platforms
 - **Subscription Optimization**: See which services offer the most movies from your watchlist
 - **Cost Planning**: Make informed decisions about streaming subscriptions
@@ -254,18 +286,21 @@ The Movie Details page includes a dedicated tab for content discovery:
 ## Tips for Effective Movie Management
 
 ### Building Your Collection
+
 1. **Start with Favorites**: Add movies you already love as a foundation
 2. **Explore Recommendations**: Use the related content features to discover new films
 3. **Genre Variety**: Don't limit yourself to one type of movie
 4. **Balance New and Classic**: Mix recent releases with timeless classics
 
 ### Organizing Your Watchlist
+
 1. **Regular Curation**: Periodically review and remove movies you're no longer interested in
 2. **Priority System**: Keep your "Not Watched" list manageable and focused
 3. **Mood Categories**: Use genre filters to match movies to your current preferences
 4. **Platform Awareness**: Regularly check what's available on your active subscriptions
 
 ### Discovery Best Practices
+
 1. **Follow Connections**: Use similar/recommended movies to explore new genres or directors
 2. **Director/Actor Following**: Pay attention to recurring names in movies you enjoy
 3. **Cross-Genre Exploration**: Occasionally venture outside your comfort zone

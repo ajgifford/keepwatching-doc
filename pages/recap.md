@@ -14,10 +14,10 @@ Recap is your personal "year in review" (and month in review) — a shareable, p
 
 A banner appears near the top of the [Home](home.md) page during two windows:
 
-| Window | What appears |
-|--------|--------------|
+| Window                        | What appears                                                |
+| ----------------------------- | ----------------------------------------------------------- |
 | The first 5 days of any month | "Check out your `<Month>` recap" — your just-finished month |
-| All of December | "Your `<Year>` Recap is ready" — your year so far |
+| All of December               | "Your `<Year>` Recap is ready" — your year so far           |
 
 The banner only appears if you actually have watch activity for that period — quiet months and years are never promoted. Click **View Recap** on the banner to open it directly to that period.
 
@@ -41,9 +41,9 @@ Once open, the recap view shows one poster-style card at a time. Use the left/ri
 
 When both are available, a toggle at the top lets you switch between browsing yearly and monthly recaps:
 
-| Toggle | Shows |
-|--------|-------|
-| **Yearly** | One card per calendar year with activity |
+| Toggle      | Shows                                     |
+| ----------- | ----------------------------------------- |
+| **Yearly**  | One card per calendar year with activity  |
 | **Monthly** | One card per calendar month with activity |
 
 When you open a recap from the Home page banner, the toggle is hidden and you're limited to whichever period type the banner was promoting — except during the first 5 days of December, when both are shown, since your November recap and your year-in-progress are both freshly relevant at the same time.
@@ -51,6 +51,7 @@ When you open a recap from the Home page banner, the toggle is hidden and you're
 ### What's on Each Card
 
 Every card includes:
+
 - **Hours Watched** and **Episodes/Movies Watched** — the two headline numbers, each with a comparison badge showing the percent change versus the previous month or year (hidden if the previous period had no activity, and capped at ">500%" for very large swings)
 - **Activity Heatmap** — a day-by-day grid (monthly cards) or month-by-month grid (yearly cards) showing when you watched, with darker cells indicating more episodes watched
 - **Top Genres** — your most-watched genres for the period, shown as proportional bars
@@ -63,6 +64,7 @@ Cards are colored using your profile's accent color (or the default theme colors
 ### Availability
 
 Recaps only appear for periods that have actually closed:
+
 - The **current month** is not available until it ends
 - The **current year** is not available until December (when the year's recap "goes live" for the reveal, even though the year technically has a few weeks left)
 
@@ -93,19 +95,23 @@ Each card can be downloaded or shared directly from the recap view:
 ## Troubleshooting
 
 **The Home page banner isn't showing up:**
+
 - It only appears during the first 5 days of a month (for the previous month) or during December (for the year). Outside those windows, use **View Recap** from Manage Account instead.
 - The banner is suppressed if the relevant period has no watch activity at all.
 
 **I don't see a recap for the current month or year:**
+
 - The current, still-in-progress month or year is intentionally excluded until it closes (or, for years, until December) — this is by design, not a bug.
 
 **The Yearly/Monthly toggle isn't showing:**
+
 - Recaps opened from the Home page banner are locked to whichever period the banner was promoting, so the toggle is hidden. Open the recap from Manage Account instead for full browsing.
 
 **Download or Share isn't working:**
+
 - Share requires a supported browser/device; unsupported combinations automatically fall back to Download.
 - Wait for the card to finish loading before downloading or sharing — the buttons are disabled while data is loading.
 
 ---
 
-*Recap turns your everyday watch history into a shareable highlight reel — a fun way to look back at a month or year of viewing, whether you keep it for yourself or share it with friends and family.*
+_Recap turns your everyday watch history into a shareable highlight reel — a fun way to look back at a month or year of viewing, whether you keep it for yourself or share it with friends and family._

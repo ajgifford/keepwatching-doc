@@ -4,9 +4,22 @@
 
 The Discover page is your gateway to finding new and trending content across all major streaming platforms. Whether you're looking for the hottest shows everyone's talking about or want to explore what's new on your favorite streaming service, the Discover page has you covered.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Trending Content Discovery](#trending-content-discovery)
+- [Service-Specific Discovery](#service-specific-discovery)
+- [Community Discovery](#community-discovery)
+- [Working with Search Results](#working-with-search-results)
+- [Tips for Better Discovery](#tips-for-better-discovery)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Next Steps](#next-steps)
+
 ## Overview
 
 The Discover page offers three main discovery modes:
+
 - **Trending Content** - Find what's popular right now across all platforms
 - **By Service** - Browse content from specific streaming services with advanced filtering
 - **Community** - Browse content recommended by other KeepWatching users
@@ -16,6 +29,7 @@ The Discover page offers three main discovery modes:
 ## Getting Started
 
 When you first visit the Discover page, you'll see three tabs at the top:
+
 1. **Trending Content** - For finding popular shows and movies
 2. **By Service** - For browsing specific streaming platforms
 3. **Community** - For browsing community recommendations
@@ -41,6 +55,7 @@ The Trending Content tab helps you discover what's currently popular across all 
 ### Understanding Trending Results
 
 Each result shows:
+
 - **Title and poster image**
 - **Brief description** of the show or movie
 - **Genres** to help you understand the content type
@@ -55,6 +70,7 @@ Each result shows:
 ### Available Streaming Services
 
 The "By Service" tab lets you explore content from these major platforms:
+
 - Netflix
 - Disney+
 - HBO Max
@@ -64,7 +80,7 @@ The "By Service" tab lets you explore content from these major platforms:
 ### How to Browse by Service
 
 1. **Choose Content Type**
-   - Select either "Movies" or "TV Shows" 
+   - Select either "Movies" or "TV Shows"
    - You can browse both types of content on any service
 
 2. **Select a Streaming Service**
@@ -143,13 +159,17 @@ The Discover page automatically loads more content as you scroll down:
 ## Troubleshooting Common Issues
 
 ### No Results Found
+
 If you don't see any results:
+
 - Try selecting a different streaming service
 - Change your content type (Movies vs TV Shows)
 - Check that you've selected all required filters
 
 ### Content Not Loading
+
 If results aren't appearing:
+
 - Check your internet connection
 - Try refreshing the page
 - Ensure you've clicked the search button after selecting your filters
