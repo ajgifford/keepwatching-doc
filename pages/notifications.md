@@ -269,6 +269,7 @@ When no notifications match your filters or search:
   - "New episode of [Show Name] is now available"
   - "[Show Name] Season X Episode Y has aired"
 - **What to do**: Navigate to the show to mark episodes as watched
+- **Opting out**: New season and new episode alerts can each be turned off independently from the Notification Preferences section of the Preferences dialog on [Manage Account](manageAccount.md#preferences)
 
 ![Notifications Details TV Show Screenshot](../images/notifications/notifications_details_tvshow.png)
 
