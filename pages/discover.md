@@ -6,17 +6,19 @@ The Discover page is your gateway to finding new and trending content across all
 
 ## Overview
 
-The Discover page offers two main discovery modes:
+The Discover page offers three main discovery modes:
 - **Trending Content** - Find what's popular right now across all platforms
 - **By Service** - Browse content from specific streaming services with advanced filtering
+- **Community** - Browse content recommended by other KeepWatching users
 
 ![Discover Tabs Screenshot](../images/discover/discover_tabs.png)
 
 ## Getting Started
 
-When you first visit the Discover page, you'll see two tabs at the top:
+When you first visit the Discover page, you'll see three tabs at the top:
 1. **Trending Content** - For finding popular shows and movies
 2. **By Service** - For browsing specific streaming platforms
+3. **Community** - For browsing community recommendations
 
 ## Trending Content Discovery
 
@@ -82,6 +84,10 @@ The "By Service" tab lets you explore content from these major platforms:
    - The button text changes based on your selected filter (e.g., "Find Top Content", "Find New Content")
 
 ![Discover Services Tab Screenshot](../images/discover/discover_new_content.png)
+
+## Community Discovery
+
+The **Community** tab shows the same community-recommended content feed available on the [Home](home.md) page's Community tab — recommendation cards showing how many times each title has been recommended and its average rating, a content-type filter (All/Shows/Movies), a favorite button to add the title directly to your collection, and a reviews link to see individual ratings and messages. See [Home](home.md#6-community-tab) for the full breakdown.
 
 ## Working with Search Results
 
