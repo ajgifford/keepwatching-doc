@@ -50,6 +50,7 @@ The account name section also includes action buttons for:
 - **Statistics** (chart icon) - View account-wide statistics
 - **Review Watch History** (history icon) - Review and fix bulk-imported watch history
 - **Preferences** (gear icon) - Configure application preferences
+- **Install** (device icon) - Install KeepWatching as an app on this device; only appears when your browser supports installation
 - **Delete Account** (trash icon) - Permanently delete your account
 
 ![Manage Account Screenshot Account Details Image](../images/manageAccount/manage_account_account_details.png)
@@ -79,8 +80,18 @@ Click the preferences icon (gear) next to your account name to configure applica
   - Light: Always use light theme
   - Dark: Always use dark theme
   - Auto: Automatically match your system theme preference
+- **Date Format**: Choose how dates are displayed — MM/DD/YYYY, DD/MM/YYYY, or YYYY-MM-DD
+- **Date Display**: Choose how dates are worded
+  - Relative for recent dates: shows things like "3 days ago" for recent activity, falling back to the date format for older dates
+  - Always relative: always shows a relative phrase, regardless of age
+  - Always absolute: always shows the date using your chosen Date Format
+- **Time Format**: Choose 12-hour (2:30 PM) or 24-hour (14:30) time
+- **Live Preview**: A preview box shows a sample content date, milestone date, and date & time formatted using your current selections, so you can see the effect before saving
 - **Email Preferences**: Configure email notifications
   - Weekly Digest: Receive weekly summary emails (requires verified email)
+- **Notification Preferences**: Control which automatic notifications you receive
+  - New season alerts: notify when a new season of a favorited show is available
+  - New episode alerts: notify when individual new episodes of favorited shows are available
 
 The preferences dialog allows you to customize your viewing experience across all devices. Changes are saved when you click the "Save" button.
 
@@ -133,6 +144,10 @@ Click the statistics icon next to your account name to view comprehensive accoun
   - **Abandonment Risk**: Shows at risk of being abandoned
   - **Unaired Content**: Tracking of upcoming and unaired episodes
   - **Profile Comparisons**: Compare viewing patterns across profiles
+
+- **Time Window Selector**: A **Time window** control (30D / 90D / 6M / 1Y / All) above the Enhanced Statistics scopes them to a specific period. It applies to Velocity, Timeline, Binge Patterns, Streaks, Seasonal Trends, Time-to-Watch, Content Depth, and Content Discovery — Milestones, Abandonment Risk, and Unaired Content always reflect lifetime data regardless of the selected window
+
+![Manage Account Screenshot Time Window Selector](../images/manageAccount/manage_account_stats_time_window.png)
 
 The statistics are fetched in parallel and displayed in an interactive dashboard with charts and visualizations powered by the KeepWatching UI library.
 
@@ -220,6 +235,8 @@ Click "View Stats" to see detailed analytics for that specific profile:
   - **Abandonment Risk**: Shows at risk of being abandoned
   - **Unaired Content**: Tracking of upcoming episodes for this profile
 
+- **Time Window Selector**: The same **Time window** control (30D / 90D / 6M / 1Y / All) described in [Account Statistics](#account-statistics) above scopes the Enhanced Statistics to a specific period — Milestones, Abandonment Risk, and Unaired Content are unaffected and always show lifetime data
+
 ![Manage Account Screenshot Profile Stats Joan](../images/manageAccount/manage_account_profile_stats_joan.png)
 ![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
 
@@ -231,7 +248,8 @@ Click "View Recap" to open that profile's shareable [Recap](recap.md) — a post
 #### Edit Profile
 1. Click "Edit" on a profile card
 2. Enter the new name in the dialog box
-3. Click "Save" to update the profile name
+3. Optionally pick an **accent color** from the swatches (or "None" to clear it) — this color carries through to that profile's [Recap](recap.md) cards
+4. Click "Save" to update the profile
 
 ![Manage Account Screenshot Edit Profile Name](../images/manageAccount/manage_account_edit.png)
 
