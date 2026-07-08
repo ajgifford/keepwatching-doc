@@ -199,9 +199,11 @@ Each streaming service has its own section containing:
 The Community tab surfaces content that other KeepWatching users have recommended. It is a great way to discover shows and movies that real people are watching and enjoying.
 
 #### What You'll See:
-- **Recommendation cards**: Each card shows the recommended show or movie, the community member who recommended it, their optional message, and their rating (if included)
+- **Recommendation cards**: Each card shows the poster, title, a badge with the number of times it's been recommended, and (if anyone has rated it) an average star rating with a count
+- **Reviews link**: If the title has one or more written reviews, a "N review(s)" link appears — click it to open a dialog listing each reviewer's individual star rating and message (reviewers aren't identified by name)
 - **Content type filter**: Toggle between All, Shows, and Movies to narrow the feed
 - **Favorite button**: Add any recommended title directly to your favorites from the card
+- **Click to view details**: Clicking the poster opens the show or movie's detail page — but only once you've added it to your favorites. Until then, the poster is dimmed and a tooltip explains you need to favorite it first
 
 #### How It Works:
 Users recommend content from the Show Details or Movie Details page using the **Recommend** button. Those recommendations appear here for all community members to discover.
@@ -238,12 +240,18 @@ A comprehensive analytics dashboard powered by advanced statistics and insights:
 - See completion percentage for each show
 - Track how close you are to finishing series
 
+#### Time Window Selector
+
+![Home Page Stats Time Window Selector Screenshot](../images/home/home_stats_time_window.png)
+
+A **Time window** control above the Enhanced Analytics section lets you scope those insights to the last **30D**, **90D**, **6M**, **1Y**, or **All** time. It applies to Viewing Velocity, Activity Timeline, Binge Watching Patterns, Watching Streaks, Seasonal Trends, Time to Watch Analysis, Content Depth, and Content Discovery. Milestone Achievements, Abandonment Risk, and Unaired Content Tracking always reflect your full lifetime data regardless of the selected window.
+
 #### Enhanced Analytics:
 
 This tab also features a set of enhanced statistics with multiple categories of insights:
 
 ##### Viewing Velocity
-- Track your watching pace over the last 30 days
+- Track your watching pace over your selected time window (30 days by default)
 - Episodes watched per day/week trends
 - Identify your most active viewing periods
 
