@@ -28,6 +28,7 @@ The Manage Account page allows you to:
 - View detailed statistics for your account and individual profiles
 - Set default profiles and switch between active profiles
 - Configure your preferences and application settings
+- Download a copy of a profile's data
 - Delete your account
 
 ![Manage Account Screenshot](../images/manageAccount/manage_account_all.png)
@@ -284,6 +285,17 @@ Click "View Recap" to open that profile's shareable [Recap](recap.md) — a post
 
 ![Manage Account Screenshot View Recap](../images/manageAccount/manage_account_view_recap.png)
 
+#### Download My Data
+
+Click "Download My Data" on a profile card to download a JSON file of that profile's data:
+
+- **Favorites**: All shows and movies added to the profile
+- **Ratings**: Star ratings and notes left on shows and movies
+- **Watchlist**: The profile's prioritized watch queue
+- **Watch History**: The full watch history, including rewatches
+
+The button shows an "Exporting…" state with a spinner while the data is gathered, then triggers a browser download of a `keepwatching-data-<profile>-<date>.json` file — no data leaves your browser except the normal API requests used to gather it. This works for any profile on the account, not just the currently active one. If the export fails (for example, due to a network issue), an error message appears on the card and you can try again.
+
 #### Edit Profile
 
 1. Click "Edit" on a profile card
@@ -443,4 +455,5 @@ If you encounter issues not covered in this guide:
 
 - Each profile's viewing data is isolated and private
 - Only account holders can view profile statistics and information
+- Use [Download My Data](#profile-actions) on any profile card to get a copy of that profile's favorites, ratings, watchlist, and watch history at any time
 - All data is permanently removed when you delete your account
