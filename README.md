@@ -38,7 +38,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 
 ### 📅 Calendar & History
 
-- **Content Calendar**: View upcoming and recently aired episodes and movies in an agenda list or month grid view
+- **Content Calendar**: View upcoming and recently aired episodes and movies in an agenda list or month grid view, with selectable date range presets (or a custom range) and `.ics` export for your calendar app
 - **Watch History**: Full paginated history of every episode and movie you've watched, with rich filtering
 - **Prior Watch Tracking**: Record watch history for shows you watched before joining KeepWatching, using original air dates
 - **Rewatch History**: Prior watches and rewatches are clearly labelled and filterable in your history
@@ -116,8 +116,10 @@ A modern React-based web application for tracking your favorite TV shows and mov
 ### Content Calendar
 
 - Agenda (list) and grid (month) views showing episodes and movies by air/release date
-- Defaults to 30 days past and 60 days future; automatically expands when navigating to new months
-- View preference (agenda vs. grid) persisted across sessions
+- Defaults to 30 days past and 60 days future; grid view automatically expands when navigating to new months
+- Agenda view adds a Date Range selector with presets (Next 7/30 Days, This Month, Last 30 Days) and a Custom Range picker (up to a 1-year span)
+- Export the currently loaded range to an `.ics` file for import into Google Calendar, Apple Calendar, Outlook, etc.
+- View preference (agenda vs. grid) and selected date range persisted across sessions, and reset on logout
 - Compact calendar embedded in the Home page TV Shows and Movies tabs for quick glance
 
 ### Watch History
@@ -199,7 +201,7 @@ Comprehensive notification system keeping you informed about new episodes, movie
 
 ### [Calendar](./pages/calendar.md)
 
-Visual content calendar showing upcoming and recently aired episodes and movies. Toggle between an agenda list view and a month grid view. Accessible from the TV Shows and Movies tabs on the Home page, or directly via the navigation menu.
+Visual content calendar showing upcoming and recently aired episodes and movies. Toggle between an agenda list view and a month grid view, choose a date range preset or custom range, and export to `.ics` for your own calendar app. Accessible from the TV Shows and Movies tabs on the Home page, or directly via the navigation menu.
 
 ### [Watch History](./pages/watchHistory.md)
 
