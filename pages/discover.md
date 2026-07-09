@@ -46,9 +46,9 @@ The Trending Content tab helps you discover what's currently popular across all 
 
 ![Discover Trending Content Tab Screenshot](../images/discover/discover_trending_content.png)
 
-2. **Find Trending Content**
-   - Click the "Find Trending Content" button to see what's popular
-   - Results will show the most trending content based on your selected type
+2. **Results Load Automatically**
+   - Trending content loads as soon as you open the tab
+   - Switching between "TV Shows" and "Movies" automatically refreshes the results based on your selection
 
 ![Discover Trending Content Results Screenshot](../images/discover/discover_trending_content_results.png)
 
@@ -95,15 +95,16 @@ The "By Service" tab lets you explore content from these major platforms:
 
 ![Discover Services Tab Screenshot](../images/discover/discover_top_content.png)
 
-4. **Search for Content**
-   - Click the "Find [Filter Type] Content" button
-   - The button text changes based on your selected filter (e.g., "Find Top Content", "Find New Content")
+4. **Results Load Automatically**
+   - Results refresh automatically whenever you change the content type, streaming service, or filter — there's no separate search button to click
 
-![Discover Services Tab Screenshot](../images/discover/discover_new_content.png)
+![Discover Services Tab Screenshot](../images/discover/discover_top_content_results.png)
 
 ## Community Discovery
 
 The **Community** tab shows the same community-recommended content feed available on the [Home](home.md) page's Community tab — recommendation cards showing how many times each title has been recommended and its average rating, a content-type filter (All/Shows/Movies), a favorite button to add the title directly to your collection, and a reviews link to see individual ratings and messages. See [Home](home.md#6-community-tab) for the full breakdown.
+
+![Discover Community Tab Screenshot](../images/discover/discover_community.png)
 
 ## Working with Search Results
 
@@ -123,6 +124,10 @@ To save interesting content for later:
 1. **Click the Favorite Button** (star icon) on any content card
 2. The content will be added to your personal collection
 3. You can then track your viewing progress from the Shows or Movies pages
+
+### Adding Content to Your Watchlist
+
+Next to the favorite button, each result also has a watchlist quick-action icon — a plus icon if it's not yet on your watchlist, or a disabled checkmark if it already is. Clicking it on content you haven't favorited yet automatically favorites it first, then adds it to your watchlist in one click; already-favorited content is added to the watchlist directly.
 
 ### Loading More Results
 
@@ -172,7 +177,7 @@ If results aren't appearing:
 
 - Check your internet connection
 - Try refreshing the page
-- Ensure you've clicked the search button after selecting your filters
+- Try adjusting your filters — results reload automatically, but a filter combination may have no matches
 
 ## Next Steps
 

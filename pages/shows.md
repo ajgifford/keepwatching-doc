@@ -88,6 +88,11 @@ Each show in the list displays comprehensive information:
 - Click the **star icon** next to any show to remove it from your favorites
 - The show will be immediately removed from your list
 
+#### Adding to Your Watchlist
+
+- Click the **watchlist icon** next to any show to add it to your watchlist
+- Only available for shows you haven't started watching yet — the icon is disabled once a show is marked watching, watched, up to date, or skipped
+
 #### Changing Watch Status
 
 - Click the **watch status icon** to change a show's status
@@ -260,7 +265,7 @@ Discover new content with:
 
 - **Recommended Shows**: Shows suggested based on your viewing history
 - **Similar Shows**: Shows with similar themes, genres, or characteristics
-- **Quick Add**: Add recommended shows directly to your favorites
+- **Quick Add**: Add recommended shows directly to your favorites, or straight to your watchlist — clicking the watchlist button on a show you haven't favorited yet favorites it first automatically, then adds it to your watchlist in one click
 
 ## Prior Watch & Watch History Features
 

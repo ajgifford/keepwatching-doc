@@ -241,6 +241,7 @@ The Community tab surfaces content that other KeepWatching users have recommende
 - **Reviews link**: If the title has one or more written reviews, a "N review(s)" link appears — click it to open a dialog listing each reviewer's individual star rating and message (reviewers aren't identified by name)
 - **Content type filter**: Toggle between All, Shows, and Movies to narrow the feed
 - **Favorite button**: Add any recommended title directly to your favorites from the card
+- **Watchlist button**: Add a title to your watchlist directly from the card — favoriting happens automatically first if it isn't already in your collection. Disabled once the title has already been watched
 - **Click to view details**: Clicking the poster opens the show or movie's detail page — but only once you've added it to your favorites. Until then, the poster is dimmed and a tooltip explains you need to favorite it first
 
 #### How It Works:

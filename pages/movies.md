@@ -104,6 +104,11 @@ Movies are added to your collection from:
 
 ![Movies Remove Favorite Screenshot](../images/movies/movies_remove_favorite.png)
 
+#### Adding to Your Watchlist
+
+- Click the **watchlist icon** next to any movie to add it to your watchlist
+- Only available for movies you haven't watched yet — the icon is disabled once a movie is marked watched or skipped
+
 #### Watch Status Management
 
 - Click the **watch status icon** to toggle between watched and unwatched
@@ -243,7 +248,7 @@ The Movie Details page includes a dedicated tab for content discovery:
 
 - **Browse Suggestions**: Scroll through recommended and similar movies
 - **Quick Preview**: View movie posters, titles, and basic information
-- **Instant Add**: Click the favorite button to add movies directly to your collection
+- **Instant Add**: Click the favorite button to add movies directly to your collection, or the watchlist button to add straight to your watchlist — favoriting happens automatically first if the movie isn't already in your collection
 
 ### Discovery Workflow
 

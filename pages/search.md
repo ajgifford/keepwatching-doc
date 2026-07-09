@@ -245,6 +245,17 @@ Save interesting content for tracking and viewing:
    - These items are already available in your Shows/Movies pages
    - You can manage watch status and progress from those dedicated pages
 
+### Adding Content to Your Watchlist
+
+Next to the favorite button, each result also has a watchlist quick-action icon:
+
+![Search Watchlist Button Screenshot](../images/search/search_watchlist_button.png)
+
+- **Plus icon** - Not yet on your watchlist; click to add it
+- **Checkmark icon** (disabled) - Already on your watchlist
+
+Clicking the watchlist icon on content you haven't favorited yet will automatically favorite it first, then add it straight to your watchlist — no need to visit the details page. If the content is already favorited, clicking the icon adds it to your watchlist directly.
+
 ### Loading More Results
 
 The search system automatically provides additional results:
