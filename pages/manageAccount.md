@@ -172,8 +172,11 @@ Click the statistics icon next to your account name to view comprehensive accoun
   - **Abandonment Risk**: Shows at risk of being abandoned
   - **Unaired Content**: Tracking of upcoming and unaired episodes
   - **Profile Comparisons**: Compare viewing patterns across profiles
+  - **Rewatches**: Totals and most-rewatched shows/movies/episodes/seasons (in one card) plus a dedicated card showing the shows with the most rewatched episode volume across all profiles, each with its own top rewatched episodes nested underneath
+  - **Skip Rate**: How many seasons have been marked Skipped, and which shows have the most skipped seasons
+  - **Watchlist Usage**: Currently-queued items, average time in queue, add/remove churn, and completion rate (watched vs. abandoned) for the watchlist
 
-- **Time Window Selector**: A **Time window** control (30D / 90D / 6M / 1Y / All) above the Enhanced Statistics scopes them to a specific period. It applies to Velocity, Timeline, Binge Patterns, Streaks, Seasonal Trends, Time-to-Watch, Content Depth, and Content Discovery — Milestones, Abandonment Risk, and Unaired Content always reflect lifetime data regardless of the selected window
+- **Time Window Selector**: A **Time window** control (30D / 90D / 6M / 1Y / All) above the Enhanced Statistics scopes them to a specific period. It applies to Velocity, Timeline, Binge Patterns, Streaks, Seasonal Trends, Time-to-Watch, Content Depth, and Content Discovery — Milestones, Abandonment Risk, Unaired Content, Rewatches, Skip Rate, and Watchlist Usage always reflect lifetime data regardless of the selected window
 
 ![Manage Account Screenshot Time Window Selector](../images/manageAccount/manage_account_stats_time_window.png)
 
@@ -273,8 +276,11 @@ Click "View Stats" to see detailed analytics for that specific profile:
   - **Content Discovery**: How the profile discovers new content
   - **Abandonment Risk**: Shows at risk of being abandoned
   - **Unaired Content**: Tracking of upcoming episodes for this profile
+  - **Rewatches**: Totals and most-rewatched shows/movies/episodes/seasons (in one card) plus a dedicated card showing the shows with the most rewatched episode volume for this profile, each with its own top rewatched episodes nested underneath
+  - **Skip Rate**: How many seasons this profile has marked Skipped, and which shows have the most skipped seasons
+  - **Watchlist Usage**: Currently-queued items, average time in queue, add/remove churn, and completion rate (watched vs. abandoned) for this profile's watchlist
 
-- **Time Window Selector**: The same **Time window** control (30D / 90D / 6M / 1Y / All) described in [Account Statistics](#account-statistics) above scopes the Enhanced Statistics to a specific period — Milestones, Abandonment Risk, and Unaired Content are unaffected and always show lifetime data
+- **Time Window Selector**: The same **Time window** control (30D / 90D / 6M / 1Y / All) described in [Account Statistics](#account-statistics) above scopes the Enhanced Statistics to a specific period — Milestones, Abandonment Risk, Unaired Content, Rewatches, Skip Rate, and Watchlist Usage are unaffected and always show lifetime data
 
 ![Manage Account Screenshot Profile Stats Joan](../images/manageAccount/manage_account_profile_stats_joan.png)
 ![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
