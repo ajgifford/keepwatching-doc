@@ -41,6 +41,10 @@ Four summary cards provide instant insights into your viewing habits:
 
 ![Home Page Profile Card Screenshot](../images/home/home_profile_card.png)
 
+### Achievements Teaser
+
+Once you've unlocked at least one badge, a small "N badges earned — View Achievements" link appears below the Quick Stats cards. Click it to open the [Achievements](achievements.md) page, which shows every badge you can earn — tiered Bronze through Platinum — for episodes/movies/hours watched, shows completed, and membership anniversaries. It doesn't appear at all until you've unlocked your first badge.
+
 ### Recap Banner
 
 During the first 5 days of any month, or throughout December, a banner may appear below the profile header inviting you to view your latest [Recap](recap.md) — a shareable, poster-style summary of your viewing for the month or year. The banner only shows up when you actually have watch activity for that period.
@@ -291,6 +295,8 @@ A comprehensive analytics dashboard powered by advanced statistics and insights:
 ![Home Page Stats Time Window Selector Screenshot](../images/home/home_stats_time_window.png)
 
 A **Time window** control above the Enhanced Analytics section lets you scope those insights to the last **30D**, **90D**, **6M**, **1Y**, or **All** time. It applies to Viewing Velocity, Activity Timeline, Binge Watching Patterns, Watching Streaks, Seasonal Trends, Time to Watch Analysis, Content Depth, and Content Discovery. Milestone Achievements, Abandonment Risk, and Unaired Content Tracking always reflect your full lifetime data regardless of the selected window.
+
+A **View All Achievements** button next to the Time window control links to the dedicated [Achievements](achievements.md) page, which turns the Milestone Achievements data shown below into a full tiered badge collection.
 
 #### Enhanced Analytics:
 

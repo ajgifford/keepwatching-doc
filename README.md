@@ -50,6 +50,7 @@ A modern React-based web application for tracking your favorite TV shows and mov
 - **Genre Analysis**: See your favorite genres and viewing patterns
 - **Account Overview**: Account-wide statistics across all profiles
 - **Recap**: Shareable, Spotify-Wrapped-style monthly and yearly recap cards with viewing hours, top genres, an activity heatmap, and streaks — surfaced automatically on Home or browsed anytime from Manage Account
+- **Achievements**: Tiered Bronze-through-Platinum badges for episodes/movies/hours watched, shows completed, and membership anniversaries, with a trophy icon in the nav bar, an unlock toast, and shareable as a poster-style image
 
 ### 🎯 Smart Features
 
@@ -214,3 +215,7 @@ Prioritized queue of shows and movies you plan to watch next. Add items from sho
 ### [Recap](./pages/recap.md)
 
 Shareable, poster-style monthly and yearly viewing recaps, in the spirit of Spotify Wrapped. Surfaces automatically on the Home page when a new recap is ready, or browse any past period on demand from Manage Account. Each card shows hours watched, an activity heatmap, top genres, your most-watched show, and your longest streak, with cards themed to your profile's accent color.
+
+### [Achievements](./pages/achievements.md)
+
+Game-ified badges page tracking milestones across episodes watched, movies watched, hours watched, shows completed, and membership anniversaries, each tiered Bronze through Platinum. A trophy icon in the top navigation bar opens a preview dropdown of recently unlocked badges, and an unlock toast surfaces the moment a milestone is crossed — both link into the full page, alongside the existing Quick Stats teaser and Statistics tab entry points on Home. Unlocked badges can be shared as a poster-style image, the same pattern used by Recap.
