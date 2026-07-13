@@ -194,7 +194,7 @@ Advanced search functionality for finding specific shows, movies, or people (act
 
 ### [Manage Account](./pages/manageAccount.md)
 
-Account settings page for managing user profile, uploading profile images, creating/editing/deleting family profiles, and viewing detailed viewing statistics. Includes email verification status, the ability to set default profiles for quick access, and tools to review and correct bulk-marked watch history.
+Account settings page for managing user profile, uploading profile images, creating/editing/deleting family profiles, and viewing detailed viewing statistics. Includes email verification status, the ability to set default profiles for quick access, tools to review and correct bulk-marked watch history, and the ability to hand a profile off as its own independent account via an email invitation.
 
 ### [Notifications](./pages/notifications.md)
 

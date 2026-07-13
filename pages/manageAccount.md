@@ -29,6 +29,7 @@ The Manage Account page allows you to:
 - Set default profiles and switch between active profiles
 - Configure your preferences and application settings
 - Download a copy of a profile's data
+- Hand a profile off as its own independent account
 - Delete your account
 
 ![Manage Account Screenshot](../images/manageAccount/manage_account_all.png)
@@ -183,6 +184,7 @@ Click the statistics icon next to your account name to view comprehensive accoun
 The statistics are fetched in parallel and displayed in an interactive dashboard with charts and visualizations powered by the KeepWatching UI library.
 
 ![Manage Account Screenshot Account Stats Image 1](../images/manageAccount/manage_account_accounts_stats.png)
+
 ![Manage Account Screenshot Account Stats Image 2](../images/manageAccount/manage_account_accounts_stats2.png)
 ![Manage Account Screenshot Account Stats Image 3](../images/manageAccount/manage_account_accounts_stats3.png)
 ![Manage Account Screenshot Account Stats Image 4](../images/manageAccount/manage_account_accounts_stats4.png)
@@ -231,32 +233,45 @@ Each profile card shows:
 
 - Profile picture (clickable to upload new image)
 - Profile name
-- Action buttons for profile management
+- Status chips showing whether the profile is currently **Active** and/or the account's **Default**
+- An **Edit** button
+- An **Explore** menu with that profile's stats, watch-date review, recap, and data export
+- An **Account** section for handing the profile off as its own account
+- A **Danger Zone** with the profile's **Delete** control
 
 ### Profile Actions
 
 #### Set Active Profile
 
-The "Set Active" button switches your current viewing context to that profile:
+A profile that isn't currently active shows a clickable **Set Active** chip:
 
-1. Click "Set Active" on the desired profile card
-2. The button will show "Setting Active..." during the process
+1. Click the **Set Active** chip on the desired profile card
+2. The chip's label changes to "Setting Active…" with a spinner during the process
 3. Once complete, all your viewing data will reflect that profile's progress
-4. The button will be disabled and grayed out for the currently active profile
+4. The currently active profile shows a filled, non-clickable **Active** chip instead
 
 ![Manage Account Screenshot Set Active Profile](../images/manageAccount/manage_account_set_active.png)
 
 #### Set Default Profile
 
-The "Set Default" button makes a profile your account's default:
+A profile that isn't your account's default shows a clickable **Set Default** chip:
 
-1. Click "Set Default" on the desired profile card
+1. Click the **Set Default** chip on the desired profile card
 2. This profile will be automatically selected when you log in
-3. The button will be disabled for the currently set default profile
+3. The account's current default profile shows a filled, non-clickable **Default** chip instead
+
+#### Explore Menu
+
+Click **Explore** on a profile card to open a menu grouping that profile's "look, don't just switch" actions:
+
+- **View Stats** — detailed analytics for that profile (see below)
+- **Review Watch Dates** — opens the same watch-date review tool described in [Review Watch History](#review-watch-history) above, scoped to this profile
+- **View Recap** — that profile's shareable Recap (see below)
+- **Download My Data** — exports that profile's data as JSON (see below)
 
 #### View Profile Statistics
 
-Click "View Stats" to see detailed analytics for that specific profile:
+Select **View Stats** from a profile card's Explore menu to see detailed analytics for that specific profile:
 
 - **Base Statistics**: Core metrics including:
   - Individual viewing progress and statistics
@@ -283,24 +298,55 @@ Click "View Stats" to see detailed analytics for that specific profile:
 - **Time Window Selector**: The same **Time window** control (30D / 90D / 6M / 1Y / All) described in [Account Statistics](#account-statistics) above scopes the Enhanced Statistics to a specific period — Milestones, Abandonment Risk, Unaired Content, Rewatches, Skip Rate, and Watchlist Usage are unaffected and always show lifetime data
 
 ![Manage Account Screenshot Profile Stats Joan](../images/manageAccount/manage_account_profile_stats_joan.png)
+
 ![Manage Account Screenshot Profile Stats Thomas](../images/manageAccount/manage_account_profile_stats_thomas.png)
 
 #### View Recap
 
-Click "View Recap" to open that profile's shareable [Recap](recap.md) — a poster-style monthly and yearly summary of viewing activity including hours watched, an activity heatmap, top genres, most-watched show, and longest streak. Unlike the Home page banner, this is available anytime for any period the profile has activity for.
+Select **View Recap** from a profile card's Explore menu to open that profile's shareable [Recap](recap.md) — a poster-style monthly and yearly summary of viewing activity including hours watched, an activity heatmap, top genres, most-watched show, and longest streak. Unlike the Home page banner, this is available anytime for any period the profile has activity for.
 
 ![Manage Account Screenshot View Recap](../images/manageAccount/manage_account_view_recap.png)
 
 #### Download My Data
 
-Click "Download My Data" on a profile card to download a JSON file of that profile's data:
+Select **Download My Data** from a profile card's Explore menu to download a JSON file of that profile's data:
 
 - **Favorites**: All shows and movies added to the profile
 - **Ratings**: Star ratings and notes left on shows and movies
 - **Watchlist**: The profile's prioritized watch queue
 - **Watch History**: The full watch history, including rewatches
 
-The button shows an "Exporting…" state with a spinner while the data is gathered, then triggers a browser download of a `keepwatching-data-<profile>-<date>.json` file — no data leaves your browser except the normal API requests used to gather it. This works for any profile on the account, not just the currently active one. If the export fails (for example, due to a network issue), an error message appears on the card and you can try again.
+The menu item shows an "Exporting…" state with a spinner while the data is gathered, then triggers a browser download of a `keepwatching-data-<profile>-<date>.json` file — no data leaves your browser except the normal API requests used to gather it. This works for any profile on the account, not just the currently active one. If the export fails (for example, due to a network issue), an error message appears in the Explore menu and you can try again.
+
+#### Create Independent Account
+
+In the **Account** section of a profile card, click "Create Independent Account" to invite that profile's owner to take it out of your account and set it up as their own, fully independent KeepWatching account — useful when a family member (e.g. a teenager moving out, a roommate) wants their own login. The button is disabled if the profile is the only one on your account, since the account must always keep at least one profile.
+
+**To send an invitation:**
+
+1. Click "Create Independent Account" in the profile card's Account section
+2. Enter the new owner's email address (required) and optionally their name
+3. If the profile is currently your account's **default profile**, you'll also be asked to choose which of your remaining profiles becomes the new default — this step is skipped for any non-default profile
+4. Click "Send Invitation"
+
+![Manage Account Screenshot Create Independent Account](../images/manageAccount/manage_account_create_independent.png)
+
+The Account section then shows "Invite sent to `<email>`" with a **Cancel Invite** option in place of the button, so you always know an invitation is pending. **Nothing moves until the invitation is accepted** — the profile, and everything in it, stays fully usable on your account in the meantime.
+
+**What happens when the invitation is accepted:**
+
+The invited person receives an email with a link to claim the profile. They set up their new account by creating a password or continuing with Google — on their own device, using their own credentials. Once claimed:
+
+- The profile, along with its **watch history, ratings, notes, watchlist, and badges**, moves to the new account
+- The profile disappears from your account's Profiles section
+- **Preferences and notification settings do not transfer** — the new account starts with fresh defaults
+- If you'd set a replacement default profile in step 3 above, your account's default switches to it automatically
+
+**Notes:**
+
+- Invitations expire after 7 days if not claimed
+- The invited person must sign in with the exact email address the invitation was sent to
+- Only one pending invitation is allowed per profile at a time — cancel the existing one before sending another
 
 #### Edit Profile
 
@@ -323,7 +369,7 @@ The button shows an "Exporting…" state with a spinner while the data is gather
 
 #### Delete Profile
 
-1. Click "Delete" on the profile card you want to remove
+1. In the **Danger Zone** section of the profile card you want to remove, click "Delete"
 2. A confirmation dialog will appear warning about data loss
 3. Click "Delete" to confirm (this action cannot be undone)
 4. The profile and all its watch history will be permanently removed
