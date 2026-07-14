@@ -56,6 +56,7 @@ Badges are organized into six categories, each tiered **Bronze → Silver → Go
 
 - **Unlock toast timing**: badge-unlock checks run after watch-status changes complete, so the toast typically appears within a second of marking something watched — not instantly, and not on page load.
 - Achievements are tracked per profile, consistent with the rest of KeepWatching's profile-based tracking.
+- The trophy's "seen" state is saved to your profile on the server, so it stays cleared across logins and devices instead of resetting each time you sign back in.
 - "Shows Completed" counts a show the moment its status becomes **Watched** — whether that's from explicitly marking the whole show watched, or naturally as the result of marking its last episode or season watched.
 - Streak- and binge-watching-based badges aren't available yet.
 
