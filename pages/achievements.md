@@ -34,14 +34,14 @@ A dedicated **Achievements** page shows every badge you can earn, grouped by cat
 
 Badges are organized into six categories, each tiered **Bronze → Silver → Gold → Platinum** based on how far up that category's threshold ladder a badge sits:
 
-| Category | What it tracks |
-| --- | --- |
-| **Getting Started** | Your first-ever episode and first-ever movie watched |
-| **Episodes Watched** | Total episodes watched, from 10 up to 5,000 |
-| **Movies Watched** | Total movies watched, from 5 up to 500 |
-| **Hours Watched** | Total estimated viewing hours, from 10 up to 5,000 |
-| **Shows Completed** | Number of shows you've fully finished |
-| **Member Anniversary** | Years since you joined KeepWatching |
+| Category               | What it tracks                                       |
+| ---------------------- | ---------------------------------------------------- |
+| **Getting Started**    | Your first-ever episode and first-ever movie watched |
+| **Episodes Watched**   | Total episodes watched, from 10 up to 5,000          |
+| **Movies Watched**     | Total movies watched, from 5 up to 500               |
+| **Hours Watched**      | Total estimated viewing hours, from 10 up to 5,000   |
+| **Shows Completed**    | Number of shows you've fully finished                |
+| **Member Anniversary** | Years since you joined KeepWatching                  |
 
 ## Using the Page
 

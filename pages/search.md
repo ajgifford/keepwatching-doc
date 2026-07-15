@@ -24,6 +24,7 @@ The Search page is your powerful tool for finding specific shows, movies, and pe
 ![Search Screenshot](../images/search/search.png)
 
 The Search page provides comprehensive search functionality with tabbed interfaces:
+
 ### TV Shows & Movies Search Tabs
 
 - **Text-based search** for finding specific shows and movies
